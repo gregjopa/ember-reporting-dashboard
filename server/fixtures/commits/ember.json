@@ -1,0 +1,2177 @@
+[
+  {
+    "sha": "28163882e229719f496f5cbd72fdc7e84c9431b9",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-09T15:19:08Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-09T15:19:08Z"
+      },
+      "message": "Merge pull request #12464 from tricknotes/html-safe\n\n[BUGFIX release] `Ember.String.htmlSafe()` should return a instance of SafeString for `null` / `undefined`",
+      "tree": {
+        "sha": "3e4c79fc024c84b7a402a771a3033f1f09a65144",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/3e4c79fc024c84b7a402a771a3033f1f09a65144"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/28163882e229719f496f5cbd72fdc7e84c9431b9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/28163882e229719f496f5cbd72fdc7e84c9431b9",
+    "html_url": "https://github.com/emberjs/ember.js/commit/28163882e229719f496f5cbd72fdc7e84c9431b9",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/28163882e229719f496f5cbd72fdc7e84c9431b9/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e75d09788dc55d6c266cc8c2a08d0e7a58c1c048",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e75d09788dc55d6c266cc8c2a08d0e7a58c1c048",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e75d09788dc55d6c266cc8c2a08d0e7a58c1c048"
+      },
+      {
+        "sha": "cddb12bc3e1f10103b8b5f5702e991661e63b21b",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/cddb12bc3e1f10103b8b5f5702e991661e63b21b",
+        "html_url": "https://github.com/emberjs/ember.js/commit/cddb12bc3e1f10103b8b5f5702e991661e63b21b"
+      }
+    ]
+  },
+  {
+    "sha": "e75d09788dc55d6c266cc8c2a08d0e7a58c1c048",
+    "commit": {
+      "author": {
+        "name": "Matthew Beale",
+        "email": "matt.beale@madhatted.com",
+        "date": "2015-10-09T14:04:29Z"
+      },
+      "committer": {
+        "name": "Matthew Beale",
+        "email": "matt.beale@madhatted.com",
+        "date": "2015-10-09T14:04:29Z"
+      },
+      "message": "Merge pull request #12468 from anilmaurya/anilmaurya-patch-1\n\nUpdate README.md, Fix Guides link",
+      "tree": {
+        "sha": "3b1a260f104e1612d504ac4e502de16c01e07d8f",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/3b1a260f104e1612d504ac4e502de16c01e07d8f"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/e75d09788dc55d6c266cc8c2a08d0e7a58c1c048",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/e75d09788dc55d6c266cc8c2a08d0e7a58c1c048",
+    "html_url": "https://github.com/emberjs/ember.js/commit/e75d09788dc55d6c266cc8c2a08d0e7a58c1c048",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/e75d09788dc55d6c266cc8c2a08d0e7a58c1c048/comments",
+    "author": {
+      "login": "mixonic",
+      "id": 8752,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8752?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mixonic",
+      "html_url": "https://github.com/mixonic",
+      "followers_url": "https://api.github.com/users/mixonic/followers",
+      "following_url": "https://api.github.com/users/mixonic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mixonic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mixonic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mixonic/subscriptions",
+      "organizations_url": "https://api.github.com/users/mixonic/orgs",
+      "repos_url": "https://api.github.com/users/mixonic/repos",
+      "events_url": "https://api.github.com/users/mixonic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mixonic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mixonic",
+      "id": 8752,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8752?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mixonic",
+      "html_url": "https://github.com/mixonic",
+      "followers_url": "https://api.github.com/users/mixonic/followers",
+      "following_url": "https://api.github.com/users/mixonic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mixonic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mixonic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mixonic/subscriptions",
+      "organizations_url": "https://api.github.com/users/mixonic/orgs",
+      "repos_url": "https://api.github.com/users/mixonic/repos",
+      "events_url": "https://api.github.com/users/mixonic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mixonic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e15e5d5da229c7396915489d5c61c1bc57c2f259",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e15e5d5da229c7396915489d5c61c1bc57c2f259",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e15e5d5da229c7396915489d5c61c1bc57c2f259"
+      },
+      {
+        "sha": "a407440389325d39eca9514c6c3862735c26ac92",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/a407440389325d39eca9514c6c3862735c26ac92",
+        "html_url": "https://github.com/emberjs/ember.js/commit/a407440389325d39eca9514c6c3862735c26ac92"
+      }
+    ]
+  },
+  {
+    "sha": "a407440389325d39eca9514c6c3862735c26ac92",
+    "commit": {
+      "author": {
+        "name": "Anil Kumar Maurya",
+        "email": "anil@joshsoftware.com",
+        "date": "2015-10-09T13:06:16Z"
+      },
+      "committer": {
+        "name": "Anil Kumar Maurya",
+        "email": "anil@joshsoftware.com",
+        "date": "2015-10-09T13:06:16Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "3b1a260f104e1612d504ac4e502de16c01e07d8f",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/3b1a260f104e1612d504ac4e502de16c01e07d8f"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/a407440389325d39eca9514c6c3862735c26ac92",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/a407440389325d39eca9514c6c3862735c26ac92",
+    "html_url": "https://github.com/emberjs/ember.js/commit/a407440389325d39eca9514c6c3862735c26ac92",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/a407440389325d39eca9514c6c3862735c26ac92/comments",
+    "author": {
+      "login": "anilmaurya",
+      "id": 1912864,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1912864?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anilmaurya",
+      "html_url": "https://github.com/anilmaurya",
+      "followers_url": "https://api.github.com/users/anilmaurya/followers",
+      "following_url": "https://api.github.com/users/anilmaurya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/anilmaurya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/anilmaurya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/anilmaurya/subscriptions",
+      "organizations_url": "https://api.github.com/users/anilmaurya/orgs",
+      "repos_url": "https://api.github.com/users/anilmaurya/repos",
+      "events_url": "https://api.github.com/users/anilmaurya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/anilmaurya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "anilmaurya",
+      "id": 1912864,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1912864?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anilmaurya",
+      "html_url": "https://github.com/anilmaurya",
+      "followers_url": "https://api.github.com/users/anilmaurya/followers",
+      "following_url": "https://api.github.com/users/anilmaurya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/anilmaurya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/anilmaurya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/anilmaurya/subscriptions",
+      "organizations_url": "https://api.github.com/users/anilmaurya/orgs",
+      "repos_url": "https://api.github.com/users/anilmaurya/repos",
+      "events_url": "https://api.github.com/users/anilmaurya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/anilmaurya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e15e5d5da229c7396915489d5c61c1bc57c2f259",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e15e5d5da229c7396915489d5c61c1bc57c2f259",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e15e5d5da229c7396915489d5c61c1bc57c2f259"
+      }
+    ]
+  },
+  {
+    "sha": "cddb12bc3e1f10103b8b5f5702e991661e63b21b",
+    "commit": {
+      "author": {
+        "name": "Ryunosuke SATO",
+        "email": "tricknotes.rs@gmail.com",
+        "date": "2015-10-09T02:52:54Z"
+      },
+      "committer": {
+        "name": "Ryunosuke SATO",
+        "email": "tricknotes.rs@gmail.com",
+        "date": "2015-10-09T02:52:54Z"
+      },
+      "message": "[BUGFIX release] `Ember.String.htmlSafe()` should return a instance of SafeString for `null` / `undefined`\n\nCurrently, `Ember.String.htmlSafe()` returns a just String, not HTML Safe.\nWe expect it is a safe string.",
+      "tree": {
+        "sha": "191672dc159fefd932cf3f5bcd56c39264bd43e9",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/191672dc159fefd932cf3f5bcd56c39264bd43e9"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/cddb12bc3e1f10103b8b5f5702e991661e63b21b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/cddb12bc3e1f10103b8b5f5702e991661e63b21b",
+    "html_url": "https://github.com/emberjs/ember.js/commit/cddb12bc3e1f10103b8b5f5702e991661e63b21b",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/cddb12bc3e1f10103b8b5f5702e991661e63b21b/comments",
+    "author": {
+      "login": "tricknotes",
+      "id": 290782,
+      "avatar_url": "https://avatars.githubusercontent.com/u/290782?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tricknotes",
+      "html_url": "https://github.com/tricknotes",
+      "followers_url": "https://api.github.com/users/tricknotes/followers",
+      "following_url": "https://api.github.com/users/tricknotes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tricknotes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tricknotes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tricknotes/subscriptions",
+      "organizations_url": "https://api.github.com/users/tricknotes/orgs",
+      "repos_url": "https://api.github.com/users/tricknotes/repos",
+      "events_url": "https://api.github.com/users/tricknotes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tricknotes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tricknotes",
+      "id": 290782,
+      "avatar_url": "https://avatars.githubusercontent.com/u/290782?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tricknotes",
+      "html_url": "https://github.com/tricknotes",
+      "followers_url": "https://api.github.com/users/tricknotes/followers",
+      "following_url": "https://api.github.com/users/tricknotes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tricknotes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tricknotes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tricknotes/subscriptions",
+      "organizations_url": "https://api.github.com/users/tricknotes/orgs",
+      "repos_url": "https://api.github.com/users/tricknotes/repos",
+      "events_url": "https://api.github.com/users/tricknotes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tricknotes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e15e5d5da229c7396915489d5c61c1bc57c2f259",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e15e5d5da229c7396915489d5c61c1bc57c2f259",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e15e5d5da229c7396915489d5c61c1bc57c2f259"
+      }
+    ]
+  },
+  {
+    "sha": "e15e5d5da229c7396915489d5c61c1bc57c2f259",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-09T02:10:04Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-09T02:10:04Z"
+      },
+      "message": "Merge pull request #12463 from rwjblue/do-not-super-wrap-everything\n\n[BUGFIX release] Fix uglification introduced bug with super wrapping.",
+      "tree": {
+        "sha": "4688f5e639558a931b5bc464b7b03d31996e9da4",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/4688f5e639558a931b5bc464b7b03d31996e9da4"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/e15e5d5da229c7396915489d5c61c1bc57c2f259",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/e15e5d5da229c7396915489d5c61c1bc57c2f259",
+    "html_url": "https://github.com/emberjs/ember.js/commit/e15e5d5da229c7396915489d5c61c1bc57c2f259",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/e15e5d5da229c7396915489d5c61c1bc57c2f259/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f1928a94e58381fa5a9d222f1b83b6f655cc7815",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/f1928a94e58381fa5a9d222f1b83b6f655cc7815",
+        "html_url": "https://github.com/emberjs/ember.js/commit/f1928a94e58381fa5a9d222f1b83b6f655cc7815"
+      },
+      {
+        "sha": "7894cae8ed49ff252a47bddebe1d6287fe666f46",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/7894cae8ed49ff252a47bddebe1d6287fe666f46",
+        "html_url": "https://github.com/emberjs/ember.js/commit/7894cae8ed49ff252a47bddebe1d6287fe666f46"
+      }
+    ]
+  },
+  {
+    "sha": "7894cae8ed49ff252a47bddebe1d6287fe666f46",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-08T22:15:46Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-08T23:14:32Z"
+      },
+      "message": "[BUGFIX release] Fix uglification introduced bug with super wrapping.\n\nWe check to see if a function contains `_super` / `.call` / `.apply`\nbefore attempting to super wrap a given method (this saves quite a bit\nof extra super wrapping for functions that do not need it).\nUnfortunately, a number of platforms that we support do not support\ncalling `func.toString()` so we attempt to detect this and fall back\nto always super wrap everything mode.\n\nWe have roughly this code (from\n[here](https://github.com/emberjs/ember.js/blob/b4718218dbe5ffe7736c485a594248b20977c621/packages/ember-metal/lib/utils.js#L257-L271))\nto detect if we can call `toString()` and get the original source:\n\n```javascript\n  let sourceAvailable = (function() {\n    return this;\n  }).toString().indexOf('return this;') > -1;\n```\n\nThis works perfectly for development builds, but unfortunately not\nwhen minified.  Take a look at the minified source and you will see why:\n\n```javascript\nvar e=function(){return this}.toString().indexOf(\"return this;\")>-1;\n```\n\nNote that minifier has stripped the trailing semicolon from the function\nbody we are attempting to check against, but sadly our `indexOf` check\nstill contains the semicolon!\n\n**tldr;** We super wrap every function in uglified builds.\n\n---\n\nThis commit removes the trailing semicolon from the source check, and\nadds a test that should hopefully allow us to detect if this is\naccidentally reintroduced.",
+      "tree": {
+        "sha": "77b33d17600cc111375d8c5daea650f834d4c239",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/77b33d17600cc111375d8c5daea650f834d4c239"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/7894cae8ed49ff252a47bddebe1d6287fe666f46",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/7894cae8ed49ff252a47bddebe1d6287fe666f46",
+    "html_url": "https://github.com/emberjs/ember.js/commit/7894cae8ed49ff252a47bddebe1d6287fe666f46",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/7894cae8ed49ff252a47bddebe1d6287fe666f46/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1",
+        "html_url": "https://github.com/emberjs/ember.js/commit/1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1"
+      }
+    ]
+  },
+  {
+    "sha": "f1928a94e58381fa5a9d222f1b83b6f655cc7815",
+    "commit": {
+      "author": {
+        "name": "Stefan Penner",
+        "email": "stefan.penner@gmail.com",
+        "date": "2015-10-08T22:49:11Z"
+      },
+      "committer": {
+        "name": "Stefan Penner",
+        "email": "stefan.penner@gmail.com",
+        "date": "2015-10-08T22:49:11Z"
+      },
+      "message": "Merge pull request #12448 from chadhietala/keystream-ops\n\n[PERF] Bail on get if type does not have accessors",
+      "tree": {
+        "sha": "c732f74bd3d4bd79660fa0f007b2c3c498ee853c",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/c732f74bd3d4bd79660fa0f007b2c3c498ee853c"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/f1928a94e58381fa5a9d222f1b83b6f655cc7815",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/f1928a94e58381fa5a9d222f1b83b6f655cc7815",
+    "html_url": "https://github.com/emberjs/ember.js/commit/f1928a94e58381fa5a9d222f1b83b6f655cc7815",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/f1928a94e58381fa5a9d222f1b83b6f655cc7815/comments",
+    "author": {
+      "login": "stefanpenner",
+      "id": 1377,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1377?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stefanpenner",
+      "html_url": "https://github.com/stefanpenner",
+      "followers_url": "https://api.github.com/users/stefanpenner/followers",
+      "following_url": "https://api.github.com/users/stefanpenner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stefanpenner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stefanpenner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stefanpenner/subscriptions",
+      "organizations_url": "https://api.github.com/users/stefanpenner/orgs",
+      "repos_url": "https://api.github.com/users/stefanpenner/repos",
+      "events_url": "https://api.github.com/users/stefanpenner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stefanpenner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stefanpenner",
+      "id": 1377,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1377?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stefanpenner",
+      "html_url": "https://github.com/stefanpenner",
+      "followers_url": "https://api.github.com/users/stefanpenner/followers",
+      "following_url": "https://api.github.com/users/stefanpenner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stefanpenner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stefanpenner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stefanpenner/subscriptions",
+      "organizations_url": "https://api.github.com/users/stefanpenner/orgs",
+      "repos_url": "https://api.github.com/users/stefanpenner/repos",
+      "events_url": "https://api.github.com/users/stefanpenner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stefanpenner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1",
+        "html_url": "https://github.com/emberjs/ember.js/commit/1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1"
+      },
+      {
+        "sha": "ca1b3069f99f9d8258f00f3aa3e6b1583058cd8b",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/ca1b3069f99f9d8258f00f3aa3e6b1583058cd8b",
+        "html_url": "https://github.com/emberjs/ember.js/commit/ca1b3069f99f9d8258f00f3aa3e6b1583058cd8b"
+      }
+    ]
+  },
+  {
+    "sha": "1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-08T13:33:54Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-08T13:33:54Z"
+      },
+      "message": "Merge pull request #12456 from rwjblue/DIE-ATTRS-DIE\n\n[BUGFIX beta] Allow usage of bound properties in {{link-to}}.",
+      "tree": {
+        "sha": "26ef651d36ce9c7afe0af31fbb0b58e261c550d6",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/26ef651d36ce9c7afe0af31fbb0b58e261c550d6"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1",
+    "html_url": "https://github.com/emberjs/ember.js/commit/1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/1f85853cf8f3a48fb8b77ad5e3fe0117ca52bfd1/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c8c79dece702f95cd9fcd2a30734cb82ebe40b09",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/c8c79dece702f95cd9fcd2a30734cb82ebe40b09",
+        "html_url": "https://github.com/emberjs/ember.js/commit/c8c79dece702f95cd9fcd2a30734cb82ebe40b09"
+      },
+      {
+        "sha": "036bf4e96c908a4c7dfa7c4c8df430cdd1838d05",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/036bf4e96c908a4c7dfa7c4c8df430cdd1838d05",
+        "html_url": "https://github.com/emberjs/ember.js/commit/036bf4e96c908a4c7dfa7c4c8df430cdd1838d05"
+      }
+    ]
+  },
+  {
+    "sha": "ca1b3069f99f9d8258f00f3aa3e6b1583058cd8b",
+    "commit": {
+      "author": {
+        "name": "Chad Hietala",
+        "email": "chadhietala@gmail.com",
+        "date": "2015-10-06T18:38:58Z"
+      },
+      "committer": {
+        "name": "Chad Hietala",
+        "email": "chadhietala@gmail.com",
+        "date": "2015-10-07T21:01:23Z"
+      },
+      "message": "[PERF] Bail on KeyStream#compute if bool or string\n\nWhen compute is called it is expected that object is an actual Object,\nsometimes the object is a Bool or String and yet we continue down the stack look\nvalues up on it even though the result will be undefined. This change\nbails out early if `object` is a Bool or String.",
+      "tree": {
+        "sha": "f4ba7e481574c6fd066840dda5ed46e3b451c2c3",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/f4ba7e481574c6fd066840dda5ed46e3b451c2c3"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/ca1b3069f99f9d8258f00f3aa3e6b1583058cd8b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/ca1b3069f99f9d8258f00f3aa3e6b1583058cd8b",
+    "html_url": "https://github.com/emberjs/ember.js/commit/ca1b3069f99f9d8258f00f3aa3e6b1583058cd8b",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/ca1b3069f99f9d8258f00f3aa3e6b1583058cd8b/comments",
+    "author": {
+      "login": "chadhietala",
+      "id": 183799,
+      "avatar_url": "https://avatars.githubusercontent.com/u/183799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chadhietala",
+      "html_url": "https://github.com/chadhietala",
+      "followers_url": "https://api.github.com/users/chadhietala/followers",
+      "following_url": "https://api.github.com/users/chadhietala/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chadhietala/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chadhietala/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chadhietala/subscriptions",
+      "organizations_url": "https://api.github.com/users/chadhietala/orgs",
+      "repos_url": "https://api.github.com/users/chadhietala/repos",
+      "events_url": "https://api.github.com/users/chadhietala/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chadhietala/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chadhietala",
+      "id": 183799,
+      "avatar_url": "https://avatars.githubusercontent.com/u/183799?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chadhietala",
+      "html_url": "https://github.com/chadhietala",
+      "followers_url": "https://api.github.com/users/chadhietala/followers",
+      "following_url": "https://api.github.com/users/chadhietala/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chadhietala/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chadhietala/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chadhietala/subscriptions",
+      "organizations_url": "https://api.github.com/users/chadhietala/orgs",
+      "repos_url": "https://api.github.com/users/chadhietala/repos",
+      "events_url": "https://api.github.com/users/chadhietala/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chadhietala/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c8c79dece702f95cd9fcd2a30734cb82ebe40b09",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/c8c79dece702f95cd9fcd2a30734cb82ebe40b09",
+        "html_url": "https://github.com/emberjs/ember.js/commit/c8c79dece702f95cd9fcd2a30734cb82ebe40b09"
+      }
+    ]
+  },
+  {
+    "sha": "c8c79dece702f95cd9fcd2a30734cb82ebe40b09",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-07T16:33:54Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-07T16:33:54Z"
+      },
+      "message": "Merge pull request #12455 from emberjs/fixup-style\n\nremove extra comma",
+      "tree": {
+        "sha": "d1ddd3a87b2fa8e27b0ad78d15a9e96533b0b2e2",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/d1ddd3a87b2fa8e27b0ad78d15a9e96533b0b2e2"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/c8c79dece702f95cd9fcd2a30734cb82ebe40b09",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/c8c79dece702f95cd9fcd2a30734cb82ebe40b09",
+    "html_url": "https://github.com/emberjs/ember.js/commit/c8c79dece702f95cd9fcd2a30734cb82ebe40b09",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/c8c79dece702f95cd9fcd2a30734cb82ebe40b09/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d462156d55acd831d8187628965260a2f899812d",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/d462156d55acd831d8187628965260a2f899812d",
+        "html_url": "https://github.com/emberjs/ember.js/commit/d462156d55acd831d8187628965260a2f899812d"
+      },
+      {
+        "sha": "1b18f8c7730fc6285c2a07389e74655c0e4ce08f",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/1b18f8c7730fc6285c2a07389e74655c0e4ce08f",
+        "html_url": "https://github.com/emberjs/ember.js/commit/1b18f8c7730fc6285c2a07389e74655c0e4ce08f"
+      }
+    ]
+  },
+  {
+    "sha": "036bf4e96c908a4c7dfa7c4c8df430cdd1838d05",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-07T15:25:17Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-07T16:07:42Z"
+      },
+      "message": "[BUGFIX beta] Allow usage of bound properties in {{link-to}}.\n\nDue to values in `this.attrs` being either a `MutableCell` or the actual\nvalue, many flags in `link-to` would not function properly when provided\na bound property.",
+      "tree": {
+        "sha": "6e2e75113f2081f32a8e791083c285d8751181c7",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/6e2e75113f2081f32a8e791083c285d8751181c7"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/036bf4e96c908a4c7dfa7c4c8df430cdd1838d05",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/036bf4e96c908a4c7dfa7c4c8df430cdd1838d05",
+    "html_url": "https://github.com/emberjs/ember.js/commit/036bf4e96c908a4c7dfa7c4c8df430cdd1838d05",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/036bf4e96c908a4c7dfa7c4c8df430cdd1838d05/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8f8f154642e06e8fd445a0c9199ab33b6a135d7a",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/8f8f154642e06e8fd445a0c9199ab33b6a135d7a",
+        "html_url": "https://github.com/emberjs/ember.js/commit/8f8f154642e06e8fd445a0c9199ab33b6a135d7a"
+      }
+    ]
+  },
+  {
+    "sha": "1b18f8c7730fc6285c2a07389e74655c0e4ce08f",
+    "commit": {
+      "author": {
+        "name": "Stefan Penner",
+        "email": "stefan.penner@gmail.com",
+        "date": "2015-10-07T15:39:49Z"
+      },
+      "committer": {
+        "name": "Stefan Penner",
+        "email": "stefan.penner@gmail.com",
+        "date": "2015-10-07T15:39:49Z"
+      },
+      "message": "remove extra comma",
+      "tree": {
+        "sha": "d1ddd3a87b2fa8e27b0ad78d15a9e96533b0b2e2",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/d1ddd3a87b2fa8e27b0ad78d15a9e96533b0b2e2"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/1b18f8c7730fc6285c2a07389e74655c0e4ce08f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/1b18f8c7730fc6285c2a07389e74655c0e4ce08f",
+    "html_url": "https://github.com/emberjs/ember.js/commit/1b18f8c7730fc6285c2a07389e74655c0e4ce08f",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/1b18f8c7730fc6285c2a07389e74655c0e4ce08f/comments",
+    "author": {
+      "login": "stefanpenner",
+      "id": 1377,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1377?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stefanpenner",
+      "html_url": "https://github.com/stefanpenner",
+      "followers_url": "https://api.github.com/users/stefanpenner/followers",
+      "following_url": "https://api.github.com/users/stefanpenner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stefanpenner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stefanpenner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stefanpenner/subscriptions",
+      "organizations_url": "https://api.github.com/users/stefanpenner/orgs",
+      "repos_url": "https://api.github.com/users/stefanpenner/repos",
+      "events_url": "https://api.github.com/users/stefanpenner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stefanpenner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stefanpenner",
+      "id": 1377,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1377?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stefanpenner",
+      "html_url": "https://github.com/stefanpenner",
+      "followers_url": "https://api.github.com/users/stefanpenner/followers",
+      "following_url": "https://api.github.com/users/stefanpenner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stefanpenner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stefanpenner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stefanpenner/subscriptions",
+      "organizations_url": "https://api.github.com/users/stefanpenner/orgs",
+      "repos_url": "https://api.github.com/users/stefanpenner/repos",
+      "events_url": "https://api.github.com/users/stefanpenner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stefanpenner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d462156d55acd831d8187628965260a2f899812d",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/d462156d55acd831d8187628965260a2f899812d",
+        "html_url": "https://github.com/emberjs/ember.js/commit/d462156d55acd831d8187628965260a2f899812d"
+      }
+    ]
+  },
+  {
+    "sha": "d462156d55acd831d8187628965260a2f899812d",
+    "commit": {
+      "author": {
+        "name": "Stefan Penner",
+        "email": "stefan.penner@gmail.com",
+        "date": "2015-10-07T15:38:24Z"
+      },
+      "committer": {
+        "name": "Stefan Penner",
+        "email": "stefan.penner@gmail.com",
+        "date": "2015-10-07T15:38:24Z"
+      },
+      "message": "Merge pull request #12423 from emberjs/cleanup-meta\n\nCleanup meta",
+      "tree": {
+        "sha": "d7d7c46609eaf69271da54dbddae9193838acdae",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/d7d7c46609eaf69271da54dbddae9193838acdae"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/d462156d55acd831d8187628965260a2f899812d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/d462156d55acd831d8187628965260a2f899812d",
+    "html_url": "https://github.com/emberjs/ember.js/commit/d462156d55acd831d8187628965260a2f899812d",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/d462156d55acd831d8187628965260a2f899812d/comments",
+    "author": {
+      "login": "stefanpenner",
+      "id": 1377,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1377?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stefanpenner",
+      "html_url": "https://github.com/stefanpenner",
+      "followers_url": "https://api.github.com/users/stefanpenner/followers",
+      "following_url": "https://api.github.com/users/stefanpenner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stefanpenner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stefanpenner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stefanpenner/subscriptions",
+      "organizations_url": "https://api.github.com/users/stefanpenner/orgs",
+      "repos_url": "https://api.github.com/users/stefanpenner/repos",
+      "events_url": "https://api.github.com/users/stefanpenner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stefanpenner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stefanpenner",
+      "id": 1377,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1377?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stefanpenner",
+      "html_url": "https://github.com/stefanpenner",
+      "followers_url": "https://api.github.com/users/stefanpenner/followers",
+      "following_url": "https://api.github.com/users/stefanpenner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stefanpenner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stefanpenner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stefanpenner/subscriptions",
+      "organizations_url": "https://api.github.com/users/stefanpenner/orgs",
+      "repos_url": "https://api.github.com/users/stefanpenner/repos",
+      "events_url": "https://api.github.com/users/stefanpenner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stefanpenner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c0b010ecd854d6286e723808f749ad23c03dc82f",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/c0b010ecd854d6286e723808f749ad23c03dc82f",
+        "html_url": "https://github.com/emberjs/ember.js/commit/c0b010ecd854d6286e723808f749ad23c03dc82f"
+      },
+      {
+        "sha": "e46e056f1d5ed3136efbdf2136febebacd0461c6",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e46e056f1d5ed3136efbdf2136febebacd0461c6",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e46e056f1d5ed3136efbdf2136febebacd0461c6"
+      }
+    ]
+  },
+  {
+    "sha": "8f8f154642e06e8fd445a0c9199ab33b6a135d7a",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-07T14:34:03Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-07T15:13:48Z"
+      },
+      "message": "[BUGFIX release] Avoid `this.attrs.params` in LinkComponent.\n\nDue to the nature of `positionalParams`, it is trivial to supply\n`params` as a hash argument to `{{link-to}}` instead of ordered args\n(this allows truly dynamic link's). However, if `{{link-to params=foo}}`\nis used `params` will be a `MutableCell` and the current code throws an\nerror in that circumstance.\n\n*tldr;* `this.attrs` should be avoided. It is quite a :troll: in\nnon-`GlimmerComponent`'s.",
+      "tree": {
+        "sha": "7dabbeae418c0a033b2f8bdaa82cfcccd68fa5b0",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/7dabbeae418c0a033b2f8bdaa82cfcccd68fa5b0"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/8f8f154642e06e8fd445a0c9199ab33b6a135d7a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/8f8f154642e06e8fd445a0c9199ab33b6a135d7a",
+    "html_url": "https://github.com/emberjs/ember.js/commit/8f8f154642e06e8fd445a0c9199ab33b6a135d7a",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/8f8f154642e06e8fd445a0c9199ab33b6a135d7a/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4"
+      }
+    ]
+  },
+  {
+    "sha": "c0b010ecd854d6286e723808f749ad23c03dc82f",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-07T11:59:58Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-07T11:59:58Z"
+      },
+      "message": "Merge pull request #12443 from toddjordan/get-warn-api-doc-generating\n\n[BUGFIX Beta] Move warn api doc to a place where it gets picked up by the build",
+      "tree": {
+        "sha": "b7abec3a19d583770cf46d35e00411b21aa3ddb4",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/b7abec3a19d583770cf46d35e00411b21aa3ddb4"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/c0b010ecd854d6286e723808f749ad23c03dc82f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/c0b010ecd854d6286e723808f749ad23c03dc82f",
+    "html_url": "https://github.com/emberjs/ember.js/commit/c0b010ecd854d6286e723808f749ad23c03dc82f",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/c0b010ecd854d6286e723808f749ad23c03dc82f/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4"
+      },
+      {
+        "sha": "500cafcf7f5ffcbba85a072eff7a78d601878921",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/500cafcf7f5ffcbba85a072eff7a78d601878921",
+        "html_url": "https://github.com/emberjs/ember.js/commit/500cafcf7f5ffcbba85a072eff7a78d601878921"
+      }
+    ]
+  },
+  {
+    "sha": "500cafcf7f5ffcbba85a072eff7a78d601878921",
+    "commit": {
+      "author": {
+        "name": "Todd Jordan",
+        "email": "todd.jordan@inin.com",
+        "date": "2015-10-06T00:59:54Z"
+      },
+      "committer": {
+        "name": "Todd Jordan",
+        "email": "todd.jordan@inin.com",
+        "date": "2015-10-07T05:18:52Z"
+      },
+      "message": "[BUGFIX Beta] Move warn api doc to a place where it gets picked up by\nthe build\n\nupdates per feedback",
+      "tree": {
+        "sha": "bc5ac20c6299ff3c9f2153380e2678bb7f50728e",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/bc5ac20c6299ff3c9f2153380e2678bb7f50728e"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/500cafcf7f5ffcbba85a072eff7a78d601878921",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/500cafcf7f5ffcbba85a072eff7a78d601878921",
+    "html_url": "https://github.com/emberjs/ember.js/commit/500cafcf7f5ffcbba85a072eff7a78d601878921",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/500cafcf7f5ffcbba85a072eff7a78d601878921/comments",
+    "author": {
+      "login": "toddjordan",
+      "id": 3609063,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3609063?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/toddjordan",
+      "html_url": "https://github.com/toddjordan",
+      "followers_url": "https://api.github.com/users/toddjordan/followers",
+      "following_url": "https://api.github.com/users/toddjordan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toddjordan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/toddjordan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toddjordan/subscriptions",
+      "organizations_url": "https://api.github.com/users/toddjordan/orgs",
+      "repos_url": "https://api.github.com/users/toddjordan/repos",
+      "events_url": "https://api.github.com/users/toddjordan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/toddjordan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "toddjordan",
+      "id": 3609063,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3609063?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/toddjordan",
+      "html_url": "https://github.com/toddjordan",
+      "followers_url": "https://api.github.com/users/toddjordan/followers",
+      "following_url": "https://api.github.com/users/toddjordan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toddjordan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/toddjordan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toddjordan/subscriptions",
+      "organizations_url": "https://api.github.com/users/toddjordan/orgs",
+      "repos_url": "https://api.github.com/users/toddjordan/repos",
+      "events_url": "https://api.github.com/users/toddjordan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/toddjordan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bcb9185bec74751adccd325ac83cfdb5d77868e3",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/bcb9185bec74751adccd325ac83cfdb5d77868e3",
+        "html_url": "https://github.com/emberjs/ember.js/commit/bcb9185bec74751adccd325ac83cfdb5d77868e3"
+      }
+    ]
+  },
+  {
+    "sha": "e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-06T20:08:41Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-06T20:08:41Z"
+      },
+      "message": "Merge pull request #12445 from rwjblue/fix-rest-style-positional-params\n\n[BUGFIX release] Ensure rest arg positionalParams can be omitted.",
+      "tree": {
+        "sha": "65e62b324b669b567de55d71dd7bf9e82699171e",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/65e62b324b669b567de55d71dd7bf9e82699171e"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4",
+    "html_url": "https://github.com/emberjs/ember.js/commit/e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/e7ba39a23c9b10ba40177b1b77e2c12cb3671cd4/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "23258c1eadce4f52c814f0441c13880ddf896f31",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/23258c1eadce4f52c814f0441c13880ddf896f31",
+        "html_url": "https://github.com/emberjs/ember.js/commit/23258c1eadce4f52c814f0441c13880ddf896f31"
+      },
+      {
+        "sha": "d34aa11c19349972d3eda42018c4b32ff29eb53b",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/d34aa11c19349972d3eda42018c4b32ff29eb53b",
+        "html_url": "https://github.com/emberjs/ember.js/commit/d34aa11c19349972d3eda42018c4b32ff29eb53b"
+      }
+    ]
+  },
+  {
+    "sha": "d34aa11c19349972d3eda42018c4b32ff29eb53b",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-06T15:59:17Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-06T19:45:42Z"
+      },
+      "message": "[BUGFIX release] Ensure rest arg positionalParams can be omitted.\n\nWhen specifying `postionalParams` like this:\n\n```javascript\nApp.FooBarComponent = Ember.Component.extend();\n\nApp.FooBarComponent.reopenClass({\n  positionalParams: 'allTheThings'\n});\n```\n\nYou should be able to avoid using positional params by specifying\n`allTheThings` as a hash argument:\n\n```hbs\n{{foo-bar allTheThings=blah}}\n```\n\nUnfortunately, we were triggering an assertion that you used a positional\nparam that conflicted with a hash param.  This change fixes that\nassertion by avoiding doing any work when no params are specified.",
+      "tree": {
+        "sha": "65e62b324b669b567de55d71dd7bf9e82699171e",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/65e62b324b669b567de55d71dd7bf9e82699171e"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/d34aa11c19349972d3eda42018c4b32ff29eb53b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/d34aa11c19349972d3eda42018c4b32ff29eb53b",
+    "html_url": "https://github.com/emberjs/ember.js/commit/d34aa11c19349972d3eda42018c4b32ff29eb53b",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/d34aa11c19349972d3eda42018c4b32ff29eb53b/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "23258c1eadce4f52c814f0441c13880ddf896f31",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/23258c1eadce4f52c814f0441c13880ddf896f31",
+        "html_url": "https://github.com/emberjs/ember.js/commit/23258c1eadce4f52c814f0441c13880ddf896f31"
+      }
+    ]
+  },
+  {
+    "sha": "23258c1eadce4f52c814f0441c13880ddf896f31",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-05T21:52:00Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-05T21:52:00Z"
+      },
+      "message": "Merge pull request #12441 from dgeb/remove-di-reform-flag\n\nRemove `ember-registry-container-reform` feature flag.",
+      "tree": {
+        "sha": "2a9c1091f10b733de36783f1570836e1969d6d5a",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/2a9c1091f10b733de36783f1570836e1969d6d5a"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/23258c1eadce4f52c814f0441c13880ddf896f31",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/23258c1eadce4f52c814f0441c13880ddf896f31",
+    "html_url": "https://github.com/emberjs/ember.js/commit/23258c1eadce4f52c814f0441c13880ddf896f31",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/23258c1eadce4f52c814f0441c13880ddf896f31/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d34c9ea8333e5c1dca2432ccec72a080592b6d1b",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/d34c9ea8333e5c1dca2432ccec72a080592b6d1b",
+        "html_url": "https://github.com/emberjs/ember.js/commit/d34c9ea8333e5c1dca2432ccec72a080592b6d1b"
+      },
+      {
+        "sha": "a8107d143d5fa53eff9af4f2d55a217c28c68b71",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/a8107d143d5fa53eff9af4f2d55a217c28c68b71",
+        "html_url": "https://github.com/emberjs/ember.js/commit/a8107d143d5fa53eff9af4f2d55a217c28c68b71"
+      }
+    ]
+  },
+  {
+    "sha": "d34c9ea8333e5c1dca2432ccec72a080592b6d1b",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-05T20:40:10Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-05T20:40:10Z"
+      },
+      "message": "Merge pull request #12436 from csantero/protected\n\nallow @protected in JSCS",
+      "tree": {
+        "sha": "d415c9ca9a403c3dd9cc6826c1bd60adb1fe7e5e",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/d415c9ca9a403c3dd9cc6826c1bd60adb1fe7e5e"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/d34c9ea8333e5c1dca2432ccec72a080592b6d1b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/d34c9ea8333e5c1dca2432ccec72a080592b6d1b",
+    "html_url": "https://github.com/emberjs/ember.js/commit/d34c9ea8333e5c1dca2432ccec72a080592b6d1b",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/d34c9ea8333e5c1dca2432ccec72a080592b6d1b/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "736fdeaedfca2ae7673904fb1d9a4caeedaa808c",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/736fdeaedfca2ae7673904fb1d9a4caeedaa808c",
+        "html_url": "https://github.com/emberjs/ember.js/commit/736fdeaedfca2ae7673904fb1d9a4caeedaa808c"
+      },
+      {
+        "sha": "02b2ccd984c96f42fe775077f8f0f04d996e4b36",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/02b2ccd984c96f42fe775077f8f0f04d996e4b36",
+        "html_url": "https://github.com/emberjs/ember.js/commit/02b2ccd984c96f42fe775077f8f0f04d996e4b36"
+      }
+    ]
+  },
+  {
+    "sha": "736fdeaedfca2ae7673904fb1d9a4caeedaa808c",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-05T20:39:06Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-05T20:39:06Z"
+      },
+      "message": "Merge pull request #12422 from Serabe/feature/null-closure-components\n\n[BUGFIX] Fix contextual components handling invalid component paths",
+      "tree": {
+        "sha": "e7605f128c047fc95f72217409da8482df594935",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/e7605f128c047fc95f72217409da8482df594935"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/736fdeaedfca2ae7673904fb1d9a4caeedaa808c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/736fdeaedfca2ae7673904fb1d9a4caeedaa808c",
+    "html_url": "https://github.com/emberjs/ember.js/commit/736fdeaedfca2ae7673904fb1d9a4caeedaa808c",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/736fdeaedfca2ae7673904fb1d9a4caeedaa808c/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e673f9117ff7deb370b8d90ab31acd6e90670d59",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e673f9117ff7deb370b8d90ab31acd6e90670d59",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e673f9117ff7deb370b8d90ab31acd6e90670d59"
+      },
+      {
+        "sha": "4984afa783e5db1f653361945f9b90127c3c97c2",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/4984afa783e5db1f653361945f9b90127c3c97c2",
+        "html_url": "https://github.com/emberjs/ember.js/commit/4984afa783e5db1f653361945f9b90127c3c97c2"
+      }
+    ]
+  },
+  {
+    "sha": "e673f9117ff7deb370b8d90ab31acd6e90670d59",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-05T20:37:55Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-05T20:37:55Z"
+      },
+      "message": "Merge pull request #12440 from rwjblue/fix-node-tests\n\nFix node tests.",
+      "tree": {
+        "sha": "5ea59e1aaad7fc49d9d36ecb99a2bc32c58f62e3",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/5ea59e1aaad7fc49d9d36ecb99a2bc32c58f62e3"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/e673f9117ff7deb370b8d90ab31acd6e90670d59",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/e673f9117ff7deb370b8d90ab31acd6e90670d59",
+    "html_url": "https://github.com/emberjs/ember.js/commit/e673f9117ff7deb370b8d90ab31acd6e90670d59",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/e673f9117ff7deb370b8d90ab31acd6e90670d59/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7595850b908bb1ac1fac662aba3430c60821471b",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/7595850b908bb1ac1fac662aba3430c60821471b",
+        "html_url": "https://github.com/emberjs/ember.js/commit/7595850b908bb1ac1fac662aba3430c60821471b"
+      },
+      {
+        "sha": "05e5feb585233e4b27ed4a96df6e36d8d57ef2be",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/05e5feb585233e4b27ed4a96df6e36d8d57ef2be",
+        "html_url": "https://github.com/emberjs/ember.js/commit/05e5feb585233e4b27ed4a96df6e36d8d57ef2be"
+      }
+    ]
+  },
+  {
+    "sha": "a8107d143d5fa53eff9af4f2d55a217c28c68b71",
+    "commit": {
+      "author": {
+        "name": "Dan Gebhardt",
+        "email": "dan@cerebris.com",
+        "date": "2015-10-05T20:26:41Z"
+      },
+      "committer": {
+        "name": "Dan Gebhardt",
+        "email": "dan@cerebris.com",
+        "date": "2015-10-05T20:26:41Z"
+      },
+      "message": "Remove `ember-registry-container-reform` feature flag.\n\nThis flag is no longer needed now that this feature is out of beta.",
+      "tree": {
+        "sha": "1ce901f66b127f9b660e51597d1ae1d7e77c8f6f",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/1ce901f66b127f9b660e51597d1ae1d7e77c8f6f"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/a8107d143d5fa53eff9af4f2d55a217c28c68b71",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/a8107d143d5fa53eff9af4f2d55a217c28c68b71",
+    "html_url": "https://github.com/emberjs/ember.js/commit/a8107d143d5fa53eff9af4f2d55a217c28c68b71",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/a8107d143d5fa53eff9af4f2d55a217c28c68b71/comments",
+    "author": {
+      "login": "dgeb",
+      "id": 29122,
+      "avatar_url": "https://avatars.githubusercontent.com/u/29122?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dgeb",
+      "html_url": "https://github.com/dgeb",
+      "followers_url": "https://api.github.com/users/dgeb/followers",
+      "following_url": "https://api.github.com/users/dgeb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dgeb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dgeb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dgeb/subscriptions",
+      "organizations_url": "https://api.github.com/users/dgeb/orgs",
+      "repos_url": "https://api.github.com/users/dgeb/repos",
+      "events_url": "https://api.github.com/users/dgeb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dgeb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dgeb",
+      "id": 29122,
+      "avatar_url": "https://avatars.githubusercontent.com/u/29122?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dgeb",
+      "html_url": "https://github.com/dgeb",
+      "followers_url": "https://api.github.com/users/dgeb/followers",
+      "following_url": "https://api.github.com/users/dgeb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dgeb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dgeb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dgeb/subscriptions",
+      "organizations_url": "https://api.github.com/users/dgeb/orgs",
+      "repos_url": "https://api.github.com/users/dgeb/repos",
+      "events_url": "https://api.github.com/users/dgeb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dgeb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7595850b908bb1ac1fac662aba3430c60821471b",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/7595850b908bb1ac1fac662aba3430c60821471b",
+        "html_url": "https://github.com/emberjs/ember.js/commit/7595850b908bb1ac1fac662aba3430c60821471b"
+      }
+    ]
+  },
+  {
+    "sha": "05e5feb585233e4b27ed4a96df6e36d8d57ef2be",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-05T20:05:24Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-05T20:05:24Z"
+      },
+      "message": "Fix node tests.\n\nQUnit 1.19 was released and changed the way the npm package exports its\nvalue (it no longer sets up `global.QUnit` and all the assertion methods\nautomatically).\n\nThis updates to a better pattern of importing `QUnit` and using the\n`assert` argument for assertions.",
+      "tree": {
+        "sha": "5ea59e1aaad7fc49d9d36ecb99a2bc32c58f62e3",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/5ea59e1aaad7fc49d9d36ecb99a2bc32c58f62e3"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/05e5feb585233e4b27ed4a96df6e36d8d57ef2be",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/05e5feb585233e4b27ed4a96df6e36d8d57ef2be",
+    "html_url": "https://github.com/emberjs/ember.js/commit/05e5feb585233e4b27ed4a96df6e36d8d57ef2be",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/05e5feb585233e4b27ed4a96df6e36d8d57ef2be/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7595850b908bb1ac1fac662aba3430c60821471b",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/7595850b908bb1ac1fac662aba3430c60821471b",
+        "html_url": "https://github.com/emberjs/ember.js/commit/7595850b908bb1ac1fac662aba3430c60821471b"
+      }
+    ]
+  },
+  {
+    "sha": "4984afa783e5db1f653361945f9b90127c3c97c2",
+    "commit": {
+      "author": {
+        "name": "Sergio Arbeo",
+        "email": "serabe@gmail.com",
+        "date": "2015-10-01T22:16:47Z"
+      },
+      "committer": {
+        "name": "Sergio Arbeo",
+        "email": "serabe@gmail.com",
+        "date": "2015-10-05T18:47:00Z"
+      },
+      "message": "[BUGFIX] Fix contextual components handling invalid component paths\n\nContextual components show a message when passed null or unknown component\npaths.",
+      "tree": {
+        "sha": "a84f65d2d75e98e5984551b157e1c46b3be6920e",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/a84f65d2d75e98e5984551b157e1c46b3be6920e"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/4984afa783e5db1f653361945f9b90127c3c97c2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/4984afa783e5db1f653361945f9b90127c3c97c2",
+    "html_url": "https://github.com/emberjs/ember.js/commit/4984afa783e5db1f653361945f9b90127c3c97c2",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/4984afa783e5db1f653361945f9b90127c3c97c2/comments",
+    "author": {
+      "login": "Serabe",
+      "id": 36221,
+      "avatar_url": "https://avatars.githubusercontent.com/u/36221?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Serabe",
+      "html_url": "https://github.com/Serabe",
+      "followers_url": "https://api.github.com/users/Serabe/followers",
+      "following_url": "https://api.github.com/users/Serabe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Serabe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Serabe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Serabe/subscriptions",
+      "organizations_url": "https://api.github.com/users/Serabe/orgs",
+      "repos_url": "https://api.github.com/users/Serabe/repos",
+      "events_url": "https://api.github.com/users/Serabe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Serabe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Serabe",
+      "id": 36221,
+      "avatar_url": "https://avatars.githubusercontent.com/u/36221?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Serabe",
+      "html_url": "https://github.com/Serabe",
+      "followers_url": "https://api.github.com/users/Serabe/followers",
+      "following_url": "https://api.github.com/users/Serabe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Serabe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Serabe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Serabe/subscriptions",
+      "organizations_url": "https://api.github.com/users/Serabe/orgs",
+      "repos_url": "https://api.github.com/users/Serabe/repos",
+      "events_url": "https://api.github.com/users/Serabe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Serabe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e88eee778ee1a4c4319bf091dd6785023b868c63",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/e88eee778ee1a4c4319bf091dd6785023b868c63",
+        "html_url": "https://github.com/emberjs/ember.js/commit/e88eee778ee1a4c4319bf091dd6785023b868c63"
+      }
+    ]
+  },
+  {
+    "sha": "7595850b908bb1ac1fac662aba3430c60821471b",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-05T03:35:43Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-05T03:35:43Z"
+      },
+      "message": "Post release version bump.",
+      "tree": {
+        "sha": "9cae6bd5070e2198c56933803258981e74bee7ad",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/9cae6bd5070e2198c56933803258981e74bee7ad"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/7595850b908bb1ac1fac662aba3430c60821471b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/7595850b908bb1ac1fac662aba3430c60821471b",
+    "html_url": "https://github.com/emberjs/ember.js/commit/7595850b908bb1ac1fac662aba3430c60821471b",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/7595850b908bb1ac1fac662aba3430c60821471b/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4303df0a519995d2e3d4fd288e8ec6b0b8773c5d",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/4303df0a519995d2e3d4fd288e8ec6b0b8773c5d",
+        "html_url": "https://github.com/emberjs/ember.js/commit/4303df0a519995d2e3d4fd288e8ec6b0b8773c5d"
+      }
+    ]
+  },
+  {
+    "sha": "02b2ccd984c96f42fe775077f8f0f04d996e4b36",
+    "commit": {
+      "author": {
+        "name": "Chris Santero",
+        "email": "chris@solveitsimply.com",
+        "date": "2015-10-05T02:28:07Z"
+      },
+      "committer": {
+        "name": "Chris Santero",
+        "email": "chris@solveitsimply.com",
+        "date": "2015-10-05T02:28:07Z"
+      },
+      "message": "allow @protected in JSCS",
+      "tree": {
+        "sha": "b131f0391fbab3930212fdc0f25a6c93c5cefdcc",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/b131f0391fbab3930212fdc0f25a6c93c5cefdcc"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/02b2ccd984c96f42fe775077f8f0f04d996e4b36",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/02b2ccd984c96f42fe775077f8f0f04d996e4b36",
+    "html_url": "https://github.com/emberjs/ember.js/commit/02b2ccd984c96f42fe775077f8f0f04d996e4b36",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/02b2ccd984c96f42fe775077f8f0f04d996e4b36/comments",
+    "author": {
+      "login": "csantero",
+      "id": 828286,
+      "avatar_url": "https://avatars.githubusercontent.com/u/828286?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/csantero",
+      "html_url": "https://github.com/csantero",
+      "followers_url": "https://api.github.com/users/csantero/followers",
+      "following_url": "https://api.github.com/users/csantero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/csantero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/csantero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/csantero/subscriptions",
+      "organizations_url": "https://api.github.com/users/csantero/orgs",
+      "repos_url": "https://api.github.com/users/csantero/repos",
+      "events_url": "https://api.github.com/users/csantero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/csantero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "csantero",
+      "id": 828286,
+      "avatar_url": "https://avatars.githubusercontent.com/u/828286?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/csantero",
+      "html_url": "https://github.com/csantero",
+      "followers_url": "https://api.github.com/users/csantero/followers",
+      "following_url": "https://api.github.com/users/csantero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/csantero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/csantero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/csantero/subscriptions",
+      "organizations_url": "https://api.github.com/users/csantero/orgs",
+      "repos_url": "https://api.github.com/users/csantero/repos",
+      "events_url": "https://api.github.com/users/csantero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/csantero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4303df0a519995d2e3d4fd288e8ec6b0b8773c5d",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/4303df0a519995d2e3d4fd288e8ec6b0b8773c5d",
+        "html_url": "https://github.com/emberjs/ember.js/commit/4303df0a519995d2e3d4fd288e8ec6b0b8773c5d"
+      }
+    ]
+  },
+  {
+    "sha": "4303df0a519995d2e3d4fd288e8ec6b0b8773c5d",
+    "commit": {
+      "author": {
+        "name": "Matthew Beale",
+        "email": "matt.beale@madhatted.com",
+        "date": "2015-10-05T01:36:42Z"
+      },
+      "committer": {
+        "name": "Matthew Beale",
+        "email": "matt.beale@madhatted.com",
+        "date": "2015-10-05T01:36:42Z"
+      },
+      "message": "Merge pull request #12433 from rwjblue/default-layout-deprecation\n\n[DOC beta] Add link to `Ember.Component#defaultLayout` deprecation guide.",
+      "tree": {
+        "sha": "642cd5668a469cedb9230d6e65da82af4a51f598",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/642cd5668a469cedb9230d6e65da82af4a51f598"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/4303df0a519995d2e3d4fd288e8ec6b0b8773c5d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/4303df0a519995d2e3d4fd288e8ec6b0b8773c5d",
+    "html_url": "https://github.com/emberjs/ember.js/commit/4303df0a519995d2e3d4fd288e8ec6b0b8773c5d",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/4303df0a519995d2e3d4fd288e8ec6b0b8773c5d/comments",
+    "author": {
+      "login": "mixonic",
+      "id": 8752,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8752?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mixonic",
+      "html_url": "https://github.com/mixonic",
+      "followers_url": "https://api.github.com/users/mixonic/followers",
+      "following_url": "https://api.github.com/users/mixonic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mixonic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mixonic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mixonic/subscriptions",
+      "organizations_url": "https://api.github.com/users/mixonic/orgs",
+      "repos_url": "https://api.github.com/users/mixonic/repos",
+      "events_url": "https://api.github.com/users/mixonic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mixonic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mixonic",
+      "id": 8752,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8752?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mixonic",
+      "html_url": "https://github.com/mixonic",
+      "followers_url": "https://api.github.com/users/mixonic/followers",
+      "following_url": "https://api.github.com/users/mixonic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mixonic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mixonic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mixonic/subscriptions",
+      "organizations_url": "https://api.github.com/users/mixonic/orgs",
+      "repos_url": "https://api.github.com/users/mixonic/repos",
+      "events_url": "https://api.github.com/users/mixonic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mixonic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "daad20b978fe0d97dfa6eebf987f0fe0c20b59fa",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/daad20b978fe0d97dfa6eebf987f0fe0c20b59fa",
+        "html_url": "https://github.com/emberjs/ember.js/commit/daad20b978fe0d97dfa6eebf987f0fe0c20b59fa"
+      },
+      {
+        "sha": "f79504a0ff3a379a13a1b3e94e1a036f1b8437e8",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/f79504a0ff3a379a13a1b3e94e1a036f1b8437e8",
+        "html_url": "https://github.com/emberjs/ember.js/commit/f79504a0ff3a379a13a1b3e94e1a036f1b8437e8"
+      }
+    ]
+  },
+  {
+    "sha": "daad20b978fe0d97dfa6eebf987f0fe0c20b59fa",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-04T17:56:37Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "me@rwjblue.com",
+        "date": "2015-10-04T17:56:37Z"
+      },
+      "message": "Merge pull request #12435 from rwjblue/deprecation-guide-appInstance-container\n\n[DOC beta] Add guide links for `Ember.ApplicationInstance#container`",
+      "tree": {
+        "sha": "fd1a1b274151f9f7f3e12397029301adb75daaf3",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/fd1a1b274151f9f7f3e12397029301adb75daaf3"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/daad20b978fe0d97dfa6eebf987f0fe0c20b59fa",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/daad20b978fe0d97dfa6eebf987f0fe0c20b59fa",
+    "html_url": "https://github.com/emberjs/ember.js/commit/daad20b978fe0d97dfa6eebf987f0fe0c20b59fa",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/daad20b978fe0d97dfa6eebf987f0fe0c20b59fa/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1a6431e242fce88fd2d29d8a90d5f5a04ef2ba21",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/1a6431e242fce88fd2d29d8a90d5f5a04ef2ba21",
+        "html_url": "https://github.com/emberjs/ember.js/commit/1a6431e242fce88fd2d29d8a90d5f5a04ef2ba21"
+      },
+      {
+        "sha": "2ec5491f09f1c811c0f14063394c5928d21e7d19",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/2ec5491f09f1c811c0f14063394c5928d21e7d19",
+        "html_url": "https://github.com/emberjs/ember.js/commit/2ec5491f09f1c811c0f14063394c5928d21e7d19"
+      }
+    ]
+  },
+  {
+    "sha": "2ec5491f09f1c811c0f14063394c5928d21e7d19",
+    "commit": {
+      "author": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-04T17:53:48Z"
+      },
+      "committer": {
+        "name": "Robert Jackson",
+        "email": "robert.w.jackson@me.com",
+        "date": "2015-10-04T17:54:37Z"
+      },
+      "message": "[DOC beta] Add guide links for `Ember.ApplicationInstance#container`\n\n[ci skip]",
+      "tree": {
+        "sha": "fd1a1b274151f9f7f3e12397029301adb75daaf3",
+        "url": "https://api.github.com/repos/emberjs/ember.js/git/trees/fd1a1b274151f9f7f3e12397029301adb75daaf3"
+      },
+      "url": "https://api.github.com/repos/emberjs/ember.js/git/commits/2ec5491f09f1c811c0f14063394c5928d21e7d19",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/emberjs/ember.js/commits/2ec5491f09f1c811c0f14063394c5928d21e7d19",
+    "html_url": "https://github.com/emberjs/ember.js/commit/2ec5491f09f1c811c0f14063394c5928d21e7d19",
+    "comments_url": "https://api.github.com/repos/emberjs/ember.js/commits/2ec5491f09f1c811c0f14063394c5928d21e7d19/comments",
+    "author": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwjblue",
+      "id": 12637,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12637?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwjblue",
+      "html_url": "https://github.com/rwjblue",
+      "followers_url": "https://api.github.com/users/rwjblue/followers",
+      "following_url": "https://api.github.com/users/rwjblue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwjblue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwjblue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwjblue/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwjblue/orgs",
+      "repos_url": "https://api.github.com/users/rwjblue/repos",
+      "events_url": "https://api.github.com/users/rwjblue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwjblue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1a6431e242fce88fd2d29d8a90d5f5a04ef2ba21",
+        "url": "https://api.github.com/repos/emberjs/ember.js/commits/1a6431e242fce88fd2d29d8a90d5f5a04ef2ba21",
+        "html_url": "https://github.com/emberjs/ember.js/commit/1a6431e242fce88fd2d29d8a90d5f5a04ef2ba21"
+      }
+    ]
+  }
+]

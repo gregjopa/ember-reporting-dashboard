@@ -1,0 +1,2182 @@
+[
+  {
+    "sha": "fee53ab46463b2e1e938c481d26c53be1ac5b72c",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-07T16:40:07Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-07T16:40:07Z"
+      },
+      "message": "Merge pull request #3822 from captbaritone/indent-fix\n\nFix indentation in models test",
+      "tree": {
+        "sha": "320b6ce3016398f38a6d48b85956de5b70cecbb0",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/320b6ce3016398f38a6d48b85956de5b70cecbb0"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/fee53ab46463b2e1e938c481d26c53be1ac5b72c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/fee53ab46463b2e1e938c481d26c53be1ac5b72c",
+    "html_url": "https://github.com/jashkenas/backbone/commit/fee53ab46463b2e1e938c481d26c53be1ac5b72c",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/fee53ab46463b2e1e938c481d26c53be1ac5b72c/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2e60498b3d767e927d12720a53f4a75776b474c5",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/2e60498b3d767e927d12720a53f4a75776b474c5",
+        "html_url": "https://github.com/jashkenas/backbone/commit/2e60498b3d767e927d12720a53f4a75776b474c5"
+      },
+      {
+        "sha": "95512b0692384ae9cddc50de9d0a0d2372f1bc34",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/95512b0692384ae9cddc50de9d0a0d2372f1bc34",
+        "html_url": "https://github.com/jashkenas/backbone/commit/95512b0692384ae9cddc50de9d0a0d2372f1bc34"
+      }
+    ]
+  },
+  {
+    "sha": "95512b0692384ae9cddc50de9d0a0d2372f1bc34",
+    "commit": {
+      "author": {
+        "name": "Jordan Eldredge",
+        "email": "jordan@jordaneldredge.com",
+        "date": "2015-10-07T16:08:48Z"
+      },
+      "committer": {
+        "name": "Jordan Eldredge",
+        "email": "jordan@jordaneldredge.com",
+        "date": "2015-10-07T16:08:48Z"
+      },
+      "message": "Fix indentation in models test",
+      "tree": {
+        "sha": "bacad709f93819e57f7d3094ead6f5247da976cb",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/bacad709f93819e57f7d3094ead6f5247da976cb"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/95512b0692384ae9cddc50de9d0a0d2372f1bc34",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/95512b0692384ae9cddc50de9d0a0d2372f1bc34",
+    "html_url": "https://github.com/jashkenas/backbone/commit/95512b0692384ae9cddc50de9d0a0d2372f1bc34",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/95512b0692384ae9cddc50de9d0a0d2372f1bc34/comments",
+    "author": {
+      "login": "captbaritone",
+      "id": 162735,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162735?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/captbaritone",
+      "html_url": "https://github.com/captbaritone",
+      "followers_url": "https://api.github.com/users/captbaritone/followers",
+      "following_url": "https://api.github.com/users/captbaritone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/captbaritone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/captbaritone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/captbaritone/subscriptions",
+      "organizations_url": "https://api.github.com/users/captbaritone/orgs",
+      "repos_url": "https://api.github.com/users/captbaritone/repos",
+      "events_url": "https://api.github.com/users/captbaritone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/captbaritone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "captbaritone",
+      "id": 162735,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162735?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/captbaritone",
+      "html_url": "https://github.com/captbaritone",
+      "followers_url": "https://api.github.com/users/captbaritone/followers",
+      "following_url": "https://api.github.com/users/captbaritone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/captbaritone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/captbaritone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/captbaritone/subscriptions",
+      "organizations_url": "https://api.github.com/users/captbaritone/orgs",
+      "repos_url": "https://api.github.com/users/captbaritone/repos",
+      "events_url": "https://api.github.com/users/captbaritone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/captbaritone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2984d95a850e32b83c8a4fac34d7e840b7053ba6",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/2984d95a850e32b83c8a4fac34d7e840b7053ba6",
+        "html_url": "https://github.com/jashkenas/backbone/commit/2984d95a850e32b83c8a4fac34d7e840b7053ba6"
+      }
+    ]
+  },
+  {
+    "sha": "2e60498b3d767e927d12720a53f4a75776b474c5",
+    "commit": {
+      "author": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-10-07T16:04:18Z"
+      },
+      "committer": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-10-07T16:04:18Z"
+      },
+      "message": "Merge pull request #3821 from captbaritone/indent-fix\n\nFix indention in tests",
+      "tree": {
+        "sha": "47463b8a203e5696570859dc81f85b97284cb85a",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/47463b8a203e5696570859dc81f85b97284cb85a"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/2e60498b3d767e927d12720a53f4a75776b474c5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/2e60498b3d767e927d12720a53f4a75776b474c5",
+    "html_url": "https://github.com/jashkenas/backbone/commit/2e60498b3d767e927d12720a53f4a75776b474c5",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/2e60498b3d767e927d12720a53f4a75776b474c5/comments",
+    "author": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb2c1b96183d0dd92d64b8ef06b7ba4d76f274db",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/bb2c1b96183d0dd92d64b8ef06b7ba4d76f274db",
+        "html_url": "https://github.com/jashkenas/backbone/commit/bb2c1b96183d0dd92d64b8ef06b7ba4d76f274db"
+      },
+      {
+        "sha": "2984d95a850e32b83c8a4fac34d7e840b7053ba6",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/2984d95a850e32b83c8a4fac34d7e840b7053ba6",
+        "html_url": "https://github.com/jashkenas/backbone/commit/2984d95a850e32b83c8a4fac34d7e840b7053ba6"
+      }
+    ]
+  },
+  {
+    "sha": "2984d95a850e32b83c8a4fac34d7e840b7053ba6",
+    "commit": {
+      "author": {
+        "name": "Jordan Eldredge",
+        "email": "jordan@jordaneldredge.com",
+        "date": "2015-10-07T15:57:41Z"
+      },
+      "committer": {
+        "name": "Jordan Eldredge",
+        "email": "jordan@jordaneldredge.com",
+        "date": "2015-10-07T15:57:41Z"
+      },
+      "message": "Fix indention in tests",
+      "tree": {
+        "sha": "a36d67b6111d184e543418c3d30e39bbd614cabe",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/a36d67b6111d184e543418c3d30e39bbd614cabe"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/2984d95a850e32b83c8a4fac34d7e840b7053ba6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/2984d95a850e32b83c8a4fac34d7e840b7053ba6",
+    "html_url": "https://github.com/jashkenas/backbone/commit/2984d95a850e32b83c8a4fac34d7e840b7053ba6",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/2984d95a850e32b83c8a4fac34d7e840b7053ba6/comments",
+    "author": {
+      "login": "captbaritone",
+      "id": 162735,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162735?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/captbaritone",
+      "html_url": "https://github.com/captbaritone",
+      "followers_url": "https://api.github.com/users/captbaritone/followers",
+      "following_url": "https://api.github.com/users/captbaritone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/captbaritone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/captbaritone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/captbaritone/subscriptions",
+      "organizations_url": "https://api.github.com/users/captbaritone/orgs",
+      "repos_url": "https://api.github.com/users/captbaritone/repos",
+      "events_url": "https://api.github.com/users/captbaritone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/captbaritone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "captbaritone",
+      "id": 162735,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162735?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/captbaritone",
+      "html_url": "https://github.com/captbaritone",
+      "followers_url": "https://api.github.com/users/captbaritone/followers",
+      "following_url": "https://api.github.com/users/captbaritone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/captbaritone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/captbaritone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/captbaritone/subscriptions",
+      "organizations_url": "https://api.github.com/users/captbaritone/orgs",
+      "repos_url": "https://api.github.com/users/captbaritone/repos",
+      "events_url": "https://api.github.com/users/captbaritone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/captbaritone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4104cada6675bf41deba2540e607255ad6e50088",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/4104cada6675bf41deba2540e607255ad6e50088",
+        "html_url": "https://github.com/jashkenas/backbone/commit/4104cada6675bf41deba2540e607255ad6e50088"
+      }
+    ]
+  },
+  {
+    "sha": "bb2c1b96183d0dd92d64b8ef06b7ba4d76f274db",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "amk528@cs.nyu.edu",
+        "date": "2015-10-07T15:56:01Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "amk528@cs.nyu.edu",
+        "date": "2015-10-07T15:56:01Z"
+      },
+      "message": "make empty collection arguments consistent",
+      "tree": {
+        "sha": "a028b08f5ad01c0600722609680eb9505b0634b3",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/a028b08f5ad01c0600722609680eb9505b0634b3"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/bb2c1b96183d0dd92d64b8ef06b7ba4d76f274db",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/bb2c1b96183d0dd92d64b8ef06b7ba4d76f274db",
+    "html_url": "https://github.com/jashkenas/backbone/commit/bb2c1b96183d0dd92d64b8ef06b7ba4d76f274db",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/bb2c1b96183d0dd92d64b8ef06b7ba4d76f274db/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e08e19583016100d0aabfa8889fee9a70a1b5b57",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/e08e19583016100d0aabfa8889fee9a70a1b5b57",
+        "html_url": "https://github.com/jashkenas/backbone/commit/e08e19583016100d0aabfa8889fee9a70a1b5b57"
+      }
+    ]
+  },
+  {
+    "sha": "e08e19583016100d0aabfa8889fee9a70a1b5b57",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-07T15:54:38Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-07T15:54:38Z"
+      },
+      "message": "Merge pull request #3818 from captbaritone/collection-initialize-null-models\n\nDocument using [] for Collections with zero models",
+      "tree": {
+        "sha": "ed35afedf3bb7cd1b9e1d1ff0a502ad748377071",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/ed35afedf3bb7cd1b9e1d1ff0a502ad748377071"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/e08e19583016100d0aabfa8889fee9a70a1b5b57",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/e08e19583016100d0aabfa8889fee9a70a1b5b57",
+    "html_url": "https://github.com/jashkenas/backbone/commit/e08e19583016100d0aabfa8889fee9a70a1b5b57",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/e08e19583016100d0aabfa8889fee9a70a1b5b57/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4104cada6675bf41deba2540e607255ad6e50088",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/4104cada6675bf41deba2540e607255ad6e50088",
+        "html_url": "https://github.com/jashkenas/backbone/commit/4104cada6675bf41deba2540e607255ad6e50088"
+      },
+      {
+        "sha": "4b6ad311bdb25f188f803e2c2b2b0f3ea24b3fd5",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/4b6ad311bdb25f188f803e2c2b2b0f3ea24b3fd5",
+        "html_url": "https://github.com/jashkenas/backbone/commit/4b6ad311bdb25f188f803e2c2b2b0f3ea24b3fd5"
+      }
+    ]
+  },
+  {
+    "sha": "4b6ad311bdb25f188f803e2c2b2b0f3ea24b3fd5",
+    "commit": {
+      "author": {
+        "name": "Jordan Eldredge",
+        "email": "jordan@jordaneldredge.com",
+        "date": "2015-10-05T23:03:35Z"
+      },
+      "committer": {
+        "name": "Jordan Eldredge",
+        "email": "jordan@jordaneldredge.com",
+        "date": "2015-10-07T15:49:52Z"
+      },
+      "message": "Document using [] for empty Collections with options\n\nThe documented example shows passing `[]` to instantiate an empty collection\nwhile still supplying an options object. This change makes the preceding\ndocumentation consistent with that example.\n\nI also noticed that we don't have any tests covering the previously recommended\napproach of passing `null` (or any falsey value) for models. I've added a test\nto ensure we continue to support that usage.",
+      "tree": {
+        "sha": "e0340c4929a6a855856a2f9dec58f4f1f4a5f0bf",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/e0340c4929a6a855856a2f9dec58f4f1f4a5f0bf"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/4b6ad311bdb25f188f803e2c2b2b0f3ea24b3fd5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/4b6ad311bdb25f188f803e2c2b2b0f3ea24b3fd5",
+    "html_url": "https://github.com/jashkenas/backbone/commit/4b6ad311bdb25f188f803e2c2b2b0f3ea24b3fd5",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/4b6ad311bdb25f188f803e2c2b2b0f3ea24b3fd5/comments",
+    "author": {
+      "login": "captbaritone",
+      "id": 162735,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162735?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/captbaritone",
+      "html_url": "https://github.com/captbaritone",
+      "followers_url": "https://api.github.com/users/captbaritone/followers",
+      "following_url": "https://api.github.com/users/captbaritone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/captbaritone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/captbaritone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/captbaritone/subscriptions",
+      "organizations_url": "https://api.github.com/users/captbaritone/orgs",
+      "repos_url": "https://api.github.com/users/captbaritone/repos",
+      "events_url": "https://api.github.com/users/captbaritone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/captbaritone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "captbaritone",
+      "id": 162735,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162735?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/captbaritone",
+      "html_url": "https://github.com/captbaritone",
+      "followers_url": "https://api.github.com/users/captbaritone/followers",
+      "following_url": "https://api.github.com/users/captbaritone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/captbaritone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/captbaritone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/captbaritone/subscriptions",
+      "organizations_url": "https://api.github.com/users/captbaritone/orgs",
+      "repos_url": "https://api.github.com/users/captbaritone/repos",
+      "events_url": "https://api.github.com/users/captbaritone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/captbaritone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c931208a51629bc8e7438d637728620b8976f0dc",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/c931208a51629bc8e7438d637728620b8976f0dc",
+        "html_url": "https://github.com/jashkenas/backbone/commit/c931208a51629bc8e7438d637728620b8976f0dc"
+      }
+    ]
+  },
+  {
+    "sha": "4104cada6675bf41deba2540e607255ad6e50088",
+    "commit": {
+      "author": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-10-07T14:55:11Z"
+      },
+      "committer": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-10-07T14:55:11Z"
+      },
+      "message": "Merge pull request #3819 from captbaritone/semicolons\n\nMake implicit ;s in tests explicit",
+      "tree": {
+        "sha": "aa62f2a8dc3bc2b0ed1afc4f20607b147b774943",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/aa62f2a8dc3bc2b0ed1afc4f20607b147b774943"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/4104cada6675bf41deba2540e607255ad6e50088",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/4104cada6675bf41deba2540e607255ad6e50088",
+    "html_url": "https://github.com/jashkenas/backbone/commit/4104cada6675bf41deba2540e607255ad6e50088",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/4104cada6675bf41deba2540e607255ad6e50088/comments",
+    "author": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c931208a51629bc8e7438d637728620b8976f0dc",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/c931208a51629bc8e7438d637728620b8976f0dc",
+        "html_url": "https://github.com/jashkenas/backbone/commit/c931208a51629bc8e7438d637728620b8976f0dc"
+      },
+      {
+        "sha": "9fb2f197640784826ca58279726ca0b9d8c78864",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/9fb2f197640784826ca58279726ca0b9d8c78864",
+        "html_url": "https://github.com/jashkenas/backbone/commit/9fb2f197640784826ca58279726ca0b9d8c78864"
+      }
+    ]
+  },
+  {
+    "sha": "9fb2f197640784826ca58279726ca0b9d8c78864",
+    "commit": {
+      "author": {
+        "name": "Jordan Eldredge",
+        "email": "jordaneldredge@gmail.com",
+        "date": "2015-10-06T00:06:47Z"
+      },
+      "committer": {
+        "name": "Jordan Eldredge",
+        "email": "jordan@jordaneldredge.com",
+        "date": "2015-10-07T14:52:35Z"
+      },
+      "message": "Make implicit ;s in tests explicit",
+      "tree": {
+        "sha": "aa62f2a8dc3bc2b0ed1afc4f20607b147b774943",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/aa62f2a8dc3bc2b0ed1afc4f20607b147b774943"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/9fb2f197640784826ca58279726ca0b9d8c78864",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/9fb2f197640784826ca58279726ca0b9d8c78864",
+    "html_url": "https://github.com/jashkenas/backbone/commit/9fb2f197640784826ca58279726ca0b9d8c78864",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/9fb2f197640784826ca58279726ca0b9d8c78864/comments",
+    "author": {
+      "login": "captbaritone",
+      "id": 162735,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162735?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/captbaritone",
+      "html_url": "https://github.com/captbaritone",
+      "followers_url": "https://api.github.com/users/captbaritone/followers",
+      "following_url": "https://api.github.com/users/captbaritone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/captbaritone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/captbaritone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/captbaritone/subscriptions",
+      "organizations_url": "https://api.github.com/users/captbaritone/orgs",
+      "repos_url": "https://api.github.com/users/captbaritone/repos",
+      "events_url": "https://api.github.com/users/captbaritone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/captbaritone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "captbaritone",
+      "id": 162735,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162735?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/captbaritone",
+      "html_url": "https://github.com/captbaritone",
+      "followers_url": "https://api.github.com/users/captbaritone/followers",
+      "following_url": "https://api.github.com/users/captbaritone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/captbaritone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/captbaritone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/captbaritone/subscriptions",
+      "organizations_url": "https://api.github.com/users/captbaritone/orgs",
+      "repos_url": "https://api.github.com/users/captbaritone/repos",
+      "events_url": "https://api.github.com/users/captbaritone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/captbaritone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c931208a51629bc8e7438d637728620b8976f0dc",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/c931208a51629bc8e7438d637728620b8976f0dc",
+        "html_url": "https://github.com/jashkenas/backbone/commit/c931208a51629bc8e7438d637728620b8976f0dc"
+      }
+    ]
+  },
+  {
+    "sha": "c931208a51629bc8e7438d637728620b8976f0dc",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-07T12:48:22Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-07T12:48:22Z"
+      },
+      "message": "Merge pull request #3816 from platinumazure/qunit2\n\nMigrated tests to QUnit 2.0 syntax.",
+      "tree": {
+        "sha": "3be509b9a4792d5e7e5cf98a4c4332e3b70db861",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/3be509b9a4792d5e7e5cf98a4c4332e3b70db861"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/c931208a51629bc8e7438d637728620b8976f0dc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/c931208a51629bc8e7438d637728620b8976f0dc",
+    "html_url": "https://github.com/jashkenas/backbone/commit/c931208a51629bc8e7438d637728620b8976f0dc",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/c931208a51629bc8e7438d637728620b8976f0dc/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "190b295c18e884555542c5a2e42984c536a296ed",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/190b295c18e884555542c5a2e42984c536a296ed",
+        "html_url": "https://github.com/jashkenas/backbone/commit/190b295c18e884555542c5a2e42984c536a296ed"
+      },
+      {
+        "sha": "9c681906a45d4ec553b1dbe92ae30e7fd3942b53",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/9c681906a45d4ec553b1dbe92ae30e7fd3942b53",
+        "html_url": "https://github.com/jashkenas/backbone/commit/9c681906a45d4ec553b1dbe92ae30e7fd3942b53"
+      }
+    ]
+  },
+  {
+    "sha": "9c681906a45d4ec553b1dbe92ae30e7fd3942b53",
+    "commit": {
+      "author": {
+        "name": "Kevin Partington",
+        "email": "kevin.partington@kernelpanicstudios.com",
+        "date": "2015-10-07T04:35:30Z"
+      },
+      "committer": {
+        "name": "Kevin Partington",
+        "email": "kevin.partington@kernelpanicstudios.com",
+        "date": "2015-10-07T04:35:30Z"
+      },
+      "message": "Tests: Migrated unit tests to QUnit 2.0 syntax. (fixes #3813)",
+      "tree": {
+        "sha": "3be509b9a4792d5e7e5cf98a4c4332e3b70db861",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/3be509b9a4792d5e7e5cf98a4c4332e3b70db861"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/9c681906a45d4ec553b1dbe92ae30e7fd3942b53",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/9c681906a45d4ec553b1dbe92ae30e7fd3942b53",
+    "html_url": "https://github.com/jashkenas/backbone/commit/9c681906a45d4ec553b1dbe92ae30e7fd3942b53",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/9c681906a45d4ec553b1dbe92ae30e7fd3942b53/comments",
+    "author": {
+      "login": "platinumazure",
+      "id": 284282,
+      "avatar_url": "https://avatars.githubusercontent.com/u/284282?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/platinumazure",
+      "html_url": "https://github.com/platinumazure",
+      "followers_url": "https://api.github.com/users/platinumazure/followers",
+      "following_url": "https://api.github.com/users/platinumazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/platinumazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/platinumazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/platinumazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/platinumazure/orgs",
+      "repos_url": "https://api.github.com/users/platinumazure/repos",
+      "events_url": "https://api.github.com/users/platinumazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/platinumazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "platinumazure",
+      "id": 284282,
+      "avatar_url": "https://avatars.githubusercontent.com/u/284282?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/platinumazure",
+      "html_url": "https://github.com/platinumazure",
+      "followers_url": "https://api.github.com/users/platinumazure/followers",
+      "following_url": "https://api.github.com/users/platinumazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/platinumazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/platinumazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/platinumazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/platinumazure/orgs",
+      "repos_url": "https://api.github.com/users/platinumazure/repos",
+      "events_url": "https://api.github.com/users/platinumazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/platinumazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "190b295c18e884555542c5a2e42984c536a296ed",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/190b295c18e884555542c5a2e42984c536a296ed",
+        "html_url": "https://github.com/jashkenas/backbone/commit/190b295c18e884555542c5a2e42984c536a296ed"
+      }
+    ]
+  },
+  {
+    "sha": "190b295c18e884555542c5a2e42984c536a296ed",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-05T14:26:41Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-05T14:26:41Z"
+      },
+      "message": "Merge pull request #3817 from jashkenas/revert-3765-patch-2\n\nRevert \"Remove LICENSE from package.json files array.\"",
+      "tree": {
+        "sha": "423b0b1b4d9515c302fc0bb33827c433763c8313",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/423b0b1b4d9515c302fc0bb33827c433763c8313"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/190b295c18e884555542c5a2e42984c536a296ed",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/190b295c18e884555542c5a2e42984c536a296ed",
+    "html_url": "https://github.com/jashkenas/backbone/commit/190b295c18e884555542c5a2e42984c536a296ed",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/190b295c18e884555542c5a2e42984c536a296ed/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7f757696cc84aa23e0242eeb292addaba29a1eb8",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/7f757696cc84aa23e0242eeb292addaba29a1eb8",
+        "html_url": "https://github.com/jashkenas/backbone/commit/7f757696cc84aa23e0242eeb292addaba29a1eb8"
+      },
+      {
+        "sha": "f7e73b6e44bf4bff61a1143ba4184998e2b820b9",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/f7e73b6e44bf4bff61a1143ba4184998e2b820b9",
+        "html_url": "https://github.com/jashkenas/backbone/commit/f7e73b6e44bf4bff61a1143ba4184998e2b820b9"
+      }
+    ]
+  },
+  {
+    "sha": "f7e73b6e44bf4bff61a1143ba4184998e2b820b9",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-05T14:25:45Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-10-05T14:25:45Z"
+      },
+      "message": "Revert \"Remove LICENSE from package.json files array.\"",
+      "tree": {
+        "sha": "423b0b1b4d9515c302fc0bb33827c433763c8313",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/423b0b1b4d9515c302fc0bb33827c433763c8313"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/f7e73b6e44bf4bff61a1143ba4184998e2b820b9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/f7e73b6e44bf4bff61a1143ba4184998e2b820b9",
+    "html_url": "https://github.com/jashkenas/backbone/commit/f7e73b6e44bf4bff61a1143ba4184998e2b820b9",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/f7e73b6e44bf4bff61a1143ba4184998e2b820b9/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7f757696cc84aa23e0242eeb292addaba29a1eb8",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/7f757696cc84aa23e0242eeb292addaba29a1eb8",
+        "html_url": "https://github.com/jashkenas/backbone/commit/7f757696cc84aa23e0242eeb292addaba29a1eb8"
+      }
+    ]
+  },
+  {
+    "sha": "7f757696cc84aa23e0242eeb292addaba29a1eb8",
+    "commit": {
+      "author": {
+        "name": "Graeme Yeates",
+        "email": "yeatesgraeme@gmail.com",
+        "date": "2015-09-29T23:34:15Z"
+      },
+      "committer": {
+        "name": "Graeme Yeates",
+        "email": "yeatesgraeme@gmail.com",
+        "date": "2015-09-29T23:34:15Z"
+      },
+      "message": "Merge pull request #3811 from jacobbuck/moreunderscore\n\nAdd `findIndex` and `findLastIndex` underscore methods to Collection.",
+      "tree": {
+        "sha": "d3b2f07ea4a0b8a58cf1d841c23c8411f23a740f",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/d3b2f07ea4a0b8a58cf1d841c23c8411f23a740f"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/7f757696cc84aa23e0242eeb292addaba29a1eb8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/7f757696cc84aa23e0242eeb292addaba29a1eb8",
+    "html_url": "https://github.com/jashkenas/backbone/commit/7f757696cc84aa23e0242eeb292addaba29a1eb8",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/7f757696cc84aa23e0242eeb292addaba29a1eb8/comments",
+    "author": {
+      "login": "megawac",
+      "id": 3475472,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3475472?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/megawac",
+      "html_url": "https://github.com/megawac",
+      "followers_url": "https://api.github.com/users/megawac/followers",
+      "following_url": "https://api.github.com/users/megawac/following{/other_user}",
+      "gists_url": "https://api.github.com/users/megawac/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/megawac/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/megawac/subscriptions",
+      "organizations_url": "https://api.github.com/users/megawac/orgs",
+      "repos_url": "https://api.github.com/users/megawac/repos",
+      "events_url": "https://api.github.com/users/megawac/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/megawac/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "megawac",
+      "id": 3475472,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3475472?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/megawac",
+      "html_url": "https://github.com/megawac",
+      "followers_url": "https://api.github.com/users/megawac/followers",
+      "following_url": "https://api.github.com/users/megawac/following{/other_user}",
+      "gists_url": "https://api.github.com/users/megawac/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/megawac/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/megawac/subscriptions",
+      "organizations_url": "https://api.github.com/users/megawac/orgs",
+      "repos_url": "https://api.github.com/users/megawac/repos",
+      "events_url": "https://api.github.com/users/megawac/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/megawac/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "979adf5200794ff33a45498f5be6cb07a1f45624",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/979adf5200794ff33a45498f5be6cb07a1f45624",
+        "html_url": "https://github.com/jashkenas/backbone/commit/979adf5200794ff33a45498f5be6cb07a1f45624"
+      },
+      {
+        "sha": "6cff9419fb528e7087f241169a9e58d01d22a62b",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/6cff9419fb528e7087f241169a9e58d01d22a62b",
+        "html_url": "https://github.com/jashkenas/backbone/commit/6cff9419fb528e7087f241169a9e58d01d22a62b"
+      }
+    ]
+  },
+  {
+    "sha": "6cff9419fb528e7087f241169a9e58d01d22a62b",
+    "commit": {
+      "author": {
+        "name": "Jacob Buck",
+        "email": "buck.jacob@gmail.com",
+        "date": "2015-09-28T23:25:36Z"
+      },
+      "committer": {
+        "name": "Jacob Buck",
+        "email": "buck.jacob@gmail.com",
+        "date": "2015-09-29T21:20:33Z"
+      },
+      "message": "Add `findIndex` and `findLastIndex` underscore methods to Collection.",
+      "tree": {
+        "sha": "d3b2f07ea4a0b8a58cf1d841c23c8411f23a740f",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/d3b2f07ea4a0b8a58cf1d841c23c8411f23a740f"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/6cff9419fb528e7087f241169a9e58d01d22a62b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/6cff9419fb528e7087f241169a9e58d01d22a62b",
+    "html_url": "https://github.com/jashkenas/backbone/commit/6cff9419fb528e7087f241169a9e58d01d22a62b",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/6cff9419fb528e7087f241169a9e58d01d22a62b/comments",
+    "author": {
+      "login": "jacobbuck",
+      "id": 830470,
+      "avatar_url": "https://avatars.githubusercontent.com/u/830470?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jacobbuck",
+      "html_url": "https://github.com/jacobbuck",
+      "followers_url": "https://api.github.com/users/jacobbuck/followers",
+      "following_url": "https://api.github.com/users/jacobbuck/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jacobbuck/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jacobbuck/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jacobbuck/subscriptions",
+      "organizations_url": "https://api.github.com/users/jacobbuck/orgs",
+      "repos_url": "https://api.github.com/users/jacobbuck/repos",
+      "events_url": "https://api.github.com/users/jacobbuck/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jacobbuck/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jacobbuck",
+      "id": 830470,
+      "avatar_url": "https://avatars.githubusercontent.com/u/830470?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jacobbuck",
+      "html_url": "https://github.com/jacobbuck",
+      "followers_url": "https://api.github.com/users/jacobbuck/followers",
+      "following_url": "https://api.github.com/users/jacobbuck/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jacobbuck/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jacobbuck/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jacobbuck/subscriptions",
+      "organizations_url": "https://api.github.com/users/jacobbuck/orgs",
+      "repos_url": "https://api.github.com/users/jacobbuck/repos",
+      "events_url": "https://api.github.com/users/jacobbuck/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jacobbuck/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "979adf5200794ff33a45498f5be6cb07a1f45624",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/979adf5200794ff33a45498f5be6cb07a1f45624",
+        "html_url": "https://github.com/jashkenas/backbone/commit/979adf5200794ff33a45498f5be6cb07a1f45624"
+      }
+    ]
+  },
+  {
+    "sha": "979adf5200794ff33a45498f5be6cb07a1f45624",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2015-09-25T14:48:48Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2015-09-25T14:48:48Z"
+      },
+      "message": "Merge pull request #3803 from jridgewell/removeModels-regression\n\nFix _removeModels regression",
+      "tree": {
+        "sha": "c7ea98bb9623cf4ef32403592a7f5f7f3fe7b84c",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/c7ea98bb9623cf4ef32403592a7f5f7f3fe7b84c"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/979adf5200794ff33a45498f5be6cb07a1f45624",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/979adf5200794ff33a45498f5be6cb07a1f45624",
+    "html_url": "https://github.com/jashkenas/backbone/commit/979adf5200794ff33a45498f5be6cb07a1f45624",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/979adf5200794ff33a45498f5be6cb07a1f45624/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4732?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4732?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bd0fbdea4de5d72821a1c7e84b084cdcc8d12055",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/bd0fbdea4de5d72821a1c7e84b084cdcc8d12055",
+        "html_url": "https://github.com/jashkenas/backbone/commit/bd0fbdea4de5d72821a1c7e84b084cdcc8d12055"
+      },
+      {
+        "sha": "4b64eebcba67d5eb23bbd62ae4722abfe612efda",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/4b64eebcba67d5eb23bbd62ae4722abfe612efda",
+        "html_url": "https://github.com/jashkenas/backbone/commit/4b64eebcba67d5eb23bbd62ae4722abfe612efda"
+      }
+    ]
+  },
+  {
+    "sha": "bd0fbdea4de5d72821a1c7e84b084cdcc8d12055",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-09-24T15:42:24Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-09-24T15:42:24Z"
+      },
+      "message": "Merge pull request #3553 from megawac/extend-create\n\nUse _.create in extend",
+      "tree": {
+        "sha": "ef37f82e54a15c90de476a5ade485a27dda42ac3",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/ef37f82e54a15c90de476a5ade485a27dda42ac3"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/bd0fbdea4de5d72821a1c7e84b084cdcc8d12055",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/bd0fbdea4de5d72821a1c7e84b084cdcc8d12055",
+    "html_url": "https://github.com/jashkenas/backbone/commit/bd0fbdea4de5d72821a1c7e84b084cdcc8d12055",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/bd0fbdea4de5d72821a1c7e84b084cdcc8d12055/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "02666a6d8d15215876df544f77d642b7d316aff8",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/02666a6d8d15215876df544f77d642b7d316aff8",
+        "html_url": "https://github.com/jashkenas/backbone/commit/02666a6d8d15215876df544f77d642b7d316aff8"
+      },
+      {
+        "sha": "3c6fabbc8fdc801cf32cf0090b7dc17f14691982",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/3c6fabbc8fdc801cf32cf0090b7dc17f14691982",
+        "html_url": "https://github.com/jashkenas/backbone/commit/3c6fabbc8fdc801cf32cf0090b7dc17f14691982"
+      }
+    ]
+  },
+  {
+    "sha": "4b64eebcba67d5eb23bbd62ae4722abfe612efda",
+    "commit": {
+      "author": {
+        "name": "Justin Ridgewell",
+        "email": "justin@ridgewell.name",
+        "date": "2015-09-23T15:23:53Z"
+      },
+      "committer": {
+        "name": "Justin Ridgewell",
+        "email": "justin@ridgewell.name",
+        "date": "2015-09-23T15:24:16Z"
+      },
+      "message": "Fix _removeModels regression\n\nFixes #3693.\n\nThis leaves open the question of whether events triggered on the model\nduring a ‘remove’ listener should also trigger on the model. Just\nsomething to revisit for V2.\n\n```js\ncol.on('other', (model) => {\n// Should this be triggered?\n});\n\ncol.on('remove', (model) => {\n// If the model is really \"removed\" (we can't `#get` it anymore)\n// by the time this listener is called, then I'd argue that this\n// shouldn't trigger the 'other' event on the collection...\nmodel.trigger('other');\n});\n```",
+      "tree": {
+        "sha": "375328effa0c2e387373e21f6552c3f4fc17fa71",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/375328effa0c2e387373e21f6552c3f4fc17fa71"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/4b64eebcba67d5eb23bbd62ae4722abfe612efda",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/4b64eebcba67d5eb23bbd62ae4722abfe612efda",
+    "html_url": "https://github.com/jashkenas/backbone/commit/4b64eebcba67d5eb23bbd62ae4722abfe612efda",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/4b64eebcba67d5eb23bbd62ae4722abfe612efda/comments",
+    "author": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf73162b9af626d6a3877ca9ee6a0ffd240b388c",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/cf73162b9af626d6a3877ca9ee6a0ffd240b388c",
+        "html_url": "https://github.com/jashkenas/backbone/commit/cf73162b9af626d6a3877ca9ee6a0ffd240b388c"
+      }
+    ]
+  },
+  {
+    "sha": "02666a6d8d15215876df544f77d642b7d316aff8",
+    "commit": {
+      "author": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-09-22T19:39:23Z"
+      },
+      "committer": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-09-22T19:39:23Z"
+      },
+      "message": "Merge pull request #3800 from FishbaitHarry/master\n\nDocs for Collection#at behavior",
+      "tree": {
+        "sha": "037b27699fdc19ee3daa5e344b73393ab6a60c95",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/037b27699fdc19ee3daa5e344b73393ab6a60c95"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/02666a6d8d15215876df544f77d642b7d316aff8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/02666a6d8d15215876df544f77d642b7d316aff8",
+    "html_url": "https://github.com/jashkenas/backbone/commit/02666a6d8d15215876df544f77d642b7d316aff8",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/02666a6d8d15215876df544f77d642b7d316aff8/comments",
+    "author": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd44dd449960d271566ac35e039d376bc6976c2a",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/fd44dd449960d271566ac35e039d376bc6976c2a",
+        "html_url": "https://github.com/jashkenas/backbone/commit/fd44dd449960d271566ac35e039d376bc6976c2a"
+      },
+      {
+        "sha": "73578911e8fef2e77bcd8627db415ede721ef1e4",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/73578911e8fef2e77bcd8627db415ede721ef1e4",
+        "html_url": "https://github.com/jashkenas/backbone/commit/73578911e8fef2e77bcd8627db415ede721ef1e4"
+      }
+    ]
+  },
+  {
+    "sha": "73578911e8fef2e77bcd8627db415ede721ef1e4",
+    "commit": {
+      "author": {
+        "name": "FishbaitHarry",
+        "email": "fishbaitharry@gmail.com",
+        "date": "2015-09-19T16:09:15Z"
+      },
+      "committer": {
+        "name": "FishbaitHarry",
+        "email": "fishbaitharry@gmail.com",
+        "date": "2015-09-22T19:34:40Z"
+      },
+      "message": "Docs for Collection#at behavior",
+      "tree": {
+        "sha": "037b27699fdc19ee3daa5e344b73393ab6a60c95",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/037b27699fdc19ee3daa5e344b73393ab6a60c95"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/73578911e8fef2e77bcd8627db415ede721ef1e4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/73578911e8fef2e77bcd8627db415ede721ef1e4",
+    "html_url": "https://github.com/jashkenas/backbone/commit/73578911e8fef2e77bcd8627db415ede721ef1e4",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/73578911e8fef2e77bcd8627db415ede721ef1e4/comments",
+    "author": {
+      "login": "FishbaitHarry",
+      "id": 1315472,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1315472?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FishbaitHarry",
+      "html_url": "https://github.com/FishbaitHarry",
+      "followers_url": "https://api.github.com/users/FishbaitHarry/followers",
+      "following_url": "https://api.github.com/users/FishbaitHarry/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FishbaitHarry/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FishbaitHarry/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FishbaitHarry/subscriptions",
+      "organizations_url": "https://api.github.com/users/FishbaitHarry/orgs",
+      "repos_url": "https://api.github.com/users/FishbaitHarry/repos",
+      "events_url": "https://api.github.com/users/FishbaitHarry/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FishbaitHarry/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "FishbaitHarry",
+      "id": 1315472,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1315472?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FishbaitHarry",
+      "html_url": "https://github.com/FishbaitHarry",
+      "followers_url": "https://api.github.com/users/FishbaitHarry/followers",
+      "following_url": "https://api.github.com/users/FishbaitHarry/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FishbaitHarry/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FishbaitHarry/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FishbaitHarry/subscriptions",
+      "organizations_url": "https://api.github.com/users/FishbaitHarry/orgs",
+      "repos_url": "https://api.github.com/users/FishbaitHarry/repos",
+      "events_url": "https://api.github.com/users/FishbaitHarry/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FishbaitHarry/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd44dd449960d271566ac35e039d376bc6976c2a",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/fd44dd449960d271566ac35e039d376bc6976c2a",
+        "html_url": "https://github.com/jashkenas/backbone/commit/fd44dd449960d271566ac35e039d376bc6976c2a"
+      }
+    ]
+  },
+  {
+    "sha": "3c6fabbc8fdc801cf32cf0090b7dc17f14691982",
+    "commit": {
+      "author": {
+        "name": "Graeme Yeates",
+        "email": "yeatesgraeme@gmail.com",
+        "date": "2015-04-02T16:27:11Z"
+      },
+      "committer": {
+        "name": "Graeme Yeates",
+        "email": "yeatesgraeme@gmail.com",
+        "date": "2015-09-18T16:58:02Z"
+      },
+      "message": "Use _.create in extend",
+      "tree": {
+        "sha": "cdca12cfac44e97ade026d74b9b0db934c11903a",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/cdca12cfac44e97ade026d74b9b0db934c11903a"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/3c6fabbc8fdc801cf32cf0090b7dc17f14691982",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/3c6fabbc8fdc801cf32cf0090b7dc17f14691982",
+    "html_url": "https://github.com/jashkenas/backbone/commit/3c6fabbc8fdc801cf32cf0090b7dc17f14691982",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/3c6fabbc8fdc801cf32cf0090b7dc17f14691982/comments",
+    "author": {
+      "login": "megawac",
+      "id": 3475472,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3475472?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/megawac",
+      "html_url": "https://github.com/megawac",
+      "followers_url": "https://api.github.com/users/megawac/followers",
+      "following_url": "https://api.github.com/users/megawac/following{/other_user}",
+      "gists_url": "https://api.github.com/users/megawac/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/megawac/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/megawac/subscriptions",
+      "organizations_url": "https://api.github.com/users/megawac/orgs",
+      "repos_url": "https://api.github.com/users/megawac/repos",
+      "events_url": "https://api.github.com/users/megawac/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/megawac/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "megawac",
+      "id": 3475472,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3475472?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/megawac",
+      "html_url": "https://github.com/megawac",
+      "followers_url": "https://api.github.com/users/megawac/followers",
+      "following_url": "https://api.github.com/users/megawac/following{/other_user}",
+      "gists_url": "https://api.github.com/users/megawac/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/megawac/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/megawac/subscriptions",
+      "organizations_url": "https://api.github.com/users/megawac/orgs",
+      "repos_url": "https://api.github.com/users/megawac/repos",
+      "events_url": "https://api.github.com/users/megawac/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/megawac/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd44dd449960d271566ac35e039d376bc6976c2a",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/fd44dd449960d271566ac35e039d376bc6976c2a",
+        "html_url": "https://github.com/jashkenas/backbone/commit/fd44dd449960d271566ac35e039d376bc6976c2a"
+      }
+    ]
+  },
+  {
+    "sha": "fd44dd449960d271566ac35e039d376bc6976c2a",
+    "commit": {
+      "author": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-09-18T16:29:42Z"
+      },
+      "committer": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-09-18T16:29:42Z"
+      },
+      "message": "Merge pull request #3692 from akre54/modelid-docs\n\nupdate modelId docs",
+      "tree": {
+        "sha": "58a724bc1ea29e15227b560c76b6a6bab3c84c7f",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/58a724bc1ea29e15227b560c76b6a6bab3c84c7f"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/fd44dd449960d271566ac35e039d376bc6976c2a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/fd44dd449960d271566ac35e039d376bc6976c2a",
+    "html_url": "https://github.com/jashkenas/backbone/commit/fd44dd449960d271566ac35e039d376bc6976c2a",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/fd44dd449960d271566ac35e039d376bc6976c2a/comments",
+    "author": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e33de12fcd5f318709bd02e9f5f52b25b8dcfeb9",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/e33de12fcd5f318709bd02e9f5f52b25b8dcfeb9",
+        "html_url": "https://github.com/jashkenas/backbone/commit/e33de12fcd5f318709bd02e9f5f52b25b8dcfeb9"
+      },
+      {
+        "sha": "d0fd17070948f6a647d66ccb08c1d065df361611",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/d0fd17070948f6a647d66ccb08c1d065df361611",
+        "html_url": "https://github.com/jashkenas/backbone/commit/d0fd17070948f6a647d66ccb08c1d065df361611"
+      }
+    ]
+  },
+  {
+    "sha": "e33de12fcd5f318709bd02e9f5f52b25b8dcfeb9",
+    "commit": {
+      "author": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-09-18T16:26:43Z"
+      },
+      "committer": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-09-18T16:26:43Z"
+      },
+      "message": "Merge pull request #3754 from paulfalgout/patch-1\n\nRemove _.matches proxy ref in docs",
+      "tree": {
+        "sha": "5630acabb7ca231fd29347e53b75b3b96384e95a",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/5630acabb7ca231fd29347e53b75b3b96384e95a"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/e33de12fcd5f318709bd02e9f5f52b25b8dcfeb9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/e33de12fcd5f318709bd02e9f5f52b25b8dcfeb9",
+    "html_url": "https://github.com/jashkenas/backbone/commit/e33de12fcd5f318709bd02e9f5f52b25b8dcfeb9",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/e33de12fcd5f318709bd02e9f5f52b25b8dcfeb9/comments",
+    "author": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fba51b6e2ac827e093b8e33d1b5bf1f77e0e818b",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/fba51b6e2ac827e093b8e33d1b5bf1f77e0e818b",
+        "html_url": "https://github.com/jashkenas/backbone/commit/fba51b6e2ac827e093b8e33d1b5bf1f77e0e818b"
+      },
+      {
+        "sha": "372436a78dd9991b13afb20f75edd9754d166066",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/372436a78dd9991b13afb20f75edd9754d166066",
+        "html_url": "https://github.com/jashkenas/backbone/commit/372436a78dd9991b13afb20f75edd9754d166066"
+      }
+    ]
+  },
+  {
+    "sha": "fba51b6e2ac827e093b8e33d1b5bf1f77e0e818b",
+    "commit": {
+      "author": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-09-18T16:25:35Z"
+      },
+      "committer": {
+        "name": "Justin Ridgewell",
+        "email": "jridgewell@users.noreply.github.com",
+        "date": "2015-09-18T16:25:35Z"
+      },
+      "message": "Merge pull request #3735 from akre54/readme-help\n\nAdd alternative help channels to README",
+      "tree": {
+        "sha": "66fb17fad882c4f8d02cddd6ec3829995309c2f3",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/66fb17fad882c4f8d02cddd6ec3829995309c2f3"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/fba51b6e2ac827e093b8e33d1b5bf1f77e0e818b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/fba51b6e2ac827e093b8e33d1b5bf1f77e0e818b",
+    "html_url": "https://github.com/jashkenas/backbone/commit/fba51b6e2ac827e093b8e33d1b5bf1f77e0e818b",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/fba51b6e2ac827e093b8e33d1b5bf1f77e0e818b/comments",
+    "author": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jridgewell",
+      "id": 112982,
+      "avatar_url": "https://avatars.githubusercontent.com/u/112982?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jridgewell",
+      "html_url": "https://github.com/jridgewell",
+      "followers_url": "https://api.github.com/users/jridgewell/followers",
+      "following_url": "https://api.github.com/users/jridgewell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jridgewell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jridgewell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jridgewell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jridgewell/orgs",
+      "repos_url": "https://api.github.com/users/jridgewell/repos",
+      "events_url": "https://api.github.com/users/jridgewell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jridgewell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "13d87a3d354af1eba2f5559dd7d0ee2b55287760",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/13d87a3d354af1eba2f5559dd7d0ee2b55287760",
+        "html_url": "https://github.com/jashkenas/backbone/commit/13d87a3d354af1eba2f5559dd7d0ee2b55287760"
+      },
+      {
+        "sha": "716764dc24ec5929abc9ce12e7704a2fa7f11e8e",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/716764dc24ec5929abc9ce12e7704a2fa7f11e8e",
+        "html_url": "https://github.com/jashkenas/backbone/commit/716764dc24ec5929abc9ce12e7704a2fa7f11e8e"
+      }
+    ]
+  },
+  {
+    "sha": "13d87a3d354af1eba2f5559dd7d0ee2b55287760",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-09-18T16:16:43Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-09-18T16:16:43Z"
+      },
+      "message": "Merge pull request #3797 from jdalton/msedge\n\nAdd MS Edge to karma-sauce runner.",
+      "tree": {
+        "sha": "1317beb680ea50899b8a9742d69a899a8db411ec",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/1317beb680ea50899b8a9742d69a899a8db411ec"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/13d87a3d354af1eba2f5559dd7d0ee2b55287760",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/13d87a3d354af1eba2f5559dd7d0ee2b55287760",
+    "html_url": "https://github.com/jashkenas/backbone/commit/13d87a3d354af1eba2f5559dd7d0ee2b55287760",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/13d87a3d354af1eba2f5559dd7d0ee2b55287760/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "87eade612d46866d0209b618f25b9194bff23627",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/87eade612d46866d0209b618f25b9194bff23627",
+        "html_url": "https://github.com/jashkenas/backbone/commit/87eade612d46866d0209b618f25b9194bff23627"
+      },
+      {
+        "sha": "c2a2aa9d9f890865ac62cdd2e37a4f3b892b0bed",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/c2a2aa9d9f890865ac62cdd2e37a4f3b892b0bed",
+        "html_url": "https://github.com/jashkenas/backbone/commit/c2a2aa9d9f890865ac62cdd2e37a4f3b892b0bed"
+      }
+    ]
+  },
+  {
+    "sha": "87eade612d46866d0209b618f25b9194bff23627",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-09-18T16:09:42Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-09-18T16:09:42Z"
+      },
+      "message": "Merge pull request #3794 from garrettmaring/master\n\nTest for conflicting className/id and attributes",
+      "tree": {
+        "sha": "a76576fdc505ce72cc8f27c1cca26560f9ee60d4",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/a76576fdc505ce72cc8f27c1cca26560f9ee60d4"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/87eade612d46866d0209b618f25b9194bff23627",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/87eade612d46866d0209b618f25b9194bff23627",
+    "html_url": "https://github.com/jashkenas/backbone/commit/87eade612d46866d0209b618f25b9194bff23627",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/87eade612d46866d0209b618f25b9194bff23627/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+        "html_url": "https://github.com/jashkenas/backbone/commit/c59149ec2fa345684a351dbc8bb20461f3ab00ae"
+      },
+      {
+        "sha": "afd2ce8b5950ada27b4a3784b989c4c2973b221a",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/afd2ce8b5950ada27b4a3784b989c4c2973b221a",
+        "html_url": "https://github.com/jashkenas/backbone/commit/afd2ce8b5950ada27b4a3784b989c4c2973b221a"
+      }
+    ]
+  },
+  {
+    "sha": "afd2ce8b5950ada27b4a3784b989c4c2973b221a",
+    "commit": {
+      "author": {
+        "name": "Garrett Maring",
+        "email": "garrett.maring@gmail.com",
+        "date": "2015-09-15T20:58:36Z"
+      },
+      "committer": {
+        "name": "Garrett Maring",
+        "email": "garrett.maring@gmail.com",
+        "date": "2015-09-17T23:44:36Z"
+      },
+      "message": "Test for conflicting className/id and attributes",
+      "tree": {
+        "sha": "a76576fdc505ce72cc8f27c1cca26560f9ee60d4",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/a76576fdc505ce72cc8f27c1cca26560f9ee60d4"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/afd2ce8b5950ada27b4a3784b989c4c2973b221a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/afd2ce8b5950ada27b4a3784b989c4c2973b221a",
+    "html_url": "https://github.com/jashkenas/backbone/commit/afd2ce8b5950ada27b4a3784b989c4c2973b221a",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/afd2ce8b5950ada27b4a3784b989c4c2973b221a/comments",
+    "author": {
+      "login": "garrettmaring",
+      "id": 8270120,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8270120?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/garrettmaring",
+      "html_url": "https://github.com/garrettmaring",
+      "followers_url": "https://api.github.com/users/garrettmaring/followers",
+      "following_url": "https://api.github.com/users/garrettmaring/following{/other_user}",
+      "gists_url": "https://api.github.com/users/garrettmaring/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/garrettmaring/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/garrettmaring/subscriptions",
+      "organizations_url": "https://api.github.com/users/garrettmaring/orgs",
+      "repos_url": "https://api.github.com/users/garrettmaring/repos",
+      "events_url": "https://api.github.com/users/garrettmaring/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/garrettmaring/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "garrettmaring",
+      "id": 8270120,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8270120?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/garrettmaring",
+      "html_url": "https://github.com/garrettmaring",
+      "followers_url": "https://api.github.com/users/garrettmaring/followers",
+      "following_url": "https://api.github.com/users/garrettmaring/following{/other_user}",
+      "gists_url": "https://api.github.com/users/garrettmaring/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/garrettmaring/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/garrettmaring/subscriptions",
+      "organizations_url": "https://api.github.com/users/garrettmaring/orgs",
+      "repos_url": "https://api.github.com/users/garrettmaring/repos",
+      "events_url": "https://api.github.com/users/garrettmaring/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/garrettmaring/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+        "html_url": "https://github.com/jashkenas/backbone/commit/c59149ec2fa345684a351dbc8bb20461f3ab00ae"
+      }
+    ]
+  },
+  {
+    "sha": "c2a2aa9d9f890865ac62cdd2e37a4f3b892b0bed",
+    "commit": {
+      "author": {
+        "name": "John-David Dalton",
+        "email": "john.david.dalton@gmail.com",
+        "date": "2015-09-17T21:04:18Z"
+      },
+      "committer": {
+        "name": "John-David Dalton",
+        "email": "john.david.dalton@gmail.com",
+        "date": "2015-09-17T21:28:43Z"
+      },
+      "message": "Add MS Edge to karma-sauce runner.",
+      "tree": {
+        "sha": "d557ea6f088c27fa6b2395ad885a31fa41263208",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/d557ea6f088c27fa6b2395ad885a31fa41263208"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/c2a2aa9d9f890865ac62cdd2e37a4f3b892b0bed",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/c2a2aa9d9f890865ac62cdd2e37a4f3b892b0bed",
+    "html_url": "https://github.com/jashkenas/backbone/commit/c2a2aa9d9f890865ac62cdd2e37a4f3b892b0bed",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/c2a2aa9d9f890865ac62cdd2e37a4f3b892b0bed/comments",
+    "author": {
+      "login": "jdalton",
+      "id": 4303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "html_url": "https://github.com/jdalton",
+      "followers_url": "https://api.github.com/users/jdalton/followers",
+      "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+      "organizations_url": "https://api.github.com/users/jdalton/orgs",
+      "repos_url": "https://api.github.com/users/jdalton/repos",
+      "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jdalton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jdalton",
+      "id": 4303,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "html_url": "https://github.com/jdalton",
+      "followers_url": "https://api.github.com/users/jdalton/followers",
+      "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+      "organizations_url": "https://api.github.com/users/jdalton/orgs",
+      "repos_url": "https://api.github.com/users/jdalton/repos",
+      "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jdalton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+        "html_url": "https://github.com/jashkenas/backbone/commit/c59149ec2fa345684a351dbc8bb20461f3ab00ae"
+      }
+    ]
+  },
+  {
+    "sha": "c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+    "commit": {
+      "author": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-09-08T12:27:26Z"
+      },
+      "committer": {
+        "name": "Adam Krebs",
+        "email": "krebsadam@gmail.com",
+        "date": "2015-09-08T12:27:26Z"
+      },
+      "message": "Merge pull request #3787 from paulfalgout/patch-3\n\nfix incorrect closing b tag",
+      "tree": {
+        "sha": "d5c9209f6d73b4249a8c882c975b23202359be13",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/d5c9209f6d73b4249a8c882c975b23202359be13"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+    "html_url": "https://github.com/jashkenas/backbone/commit/c59149ec2fa345684a351dbc8bb20461f3ab00ae",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/c59149ec2fa345684a351dbc8bb20461f3ab00ae/comments",
+    "author": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "akre54",
+      "id": 931368,
+      "avatar_url": "https://avatars.githubusercontent.com/u/931368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/akre54",
+      "html_url": "https://github.com/akre54",
+      "followers_url": "https://api.github.com/users/akre54/followers",
+      "following_url": "https://api.github.com/users/akre54/following{/other_user}",
+      "gists_url": "https://api.github.com/users/akre54/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/akre54/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/akre54/subscriptions",
+      "organizations_url": "https://api.github.com/users/akre54/orgs",
+      "repos_url": "https://api.github.com/users/akre54/repos",
+      "events_url": "https://api.github.com/users/akre54/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/akre54/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05fde9e201f7e2137796663081105cd6dad12a98",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/05fde9e201f7e2137796663081105cd6dad12a98",
+        "html_url": "https://github.com/jashkenas/backbone/commit/05fde9e201f7e2137796663081105cd6dad12a98"
+      },
+      {
+        "sha": "10b7df9f95ac883d89b184048a13613a7808a0b3",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/10b7df9f95ac883d89b184048a13613a7808a0b3",
+        "html_url": "https://github.com/jashkenas/backbone/commit/10b7df9f95ac883d89b184048a13613a7808a0b3"
+      }
+    ]
+  },
+  {
+    "sha": "10b7df9f95ac883d89b184048a13613a7808a0b3",
+    "commit": {
+      "author": {
+        "name": "Paul Falgout",
+        "email": "paul@otterball.com",
+        "date": "2015-09-05T20:11:53Z"
+      },
+      "committer": {
+        "name": "Paul Falgout",
+        "email": "paul@otterball.com",
+        "date": "2015-09-05T20:11:53Z"
+      },
+      "message": "fix incorrect closing b tag",
+      "tree": {
+        "sha": "d5c9209f6d73b4249a8c882c975b23202359be13",
+        "url": "https://api.github.com/repos/jashkenas/backbone/git/trees/d5c9209f6d73b4249a8c882c975b23202359be13"
+      },
+      "url": "https://api.github.com/repos/jashkenas/backbone/git/commits/10b7df9f95ac883d89b184048a13613a7808a0b3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jashkenas/backbone/commits/10b7df9f95ac883d89b184048a13613a7808a0b3",
+    "html_url": "https://github.com/jashkenas/backbone/commit/10b7df9f95ac883d89b184048a13613a7808a0b3",
+    "comments_url": "https://api.github.com/repos/jashkenas/backbone/commits/10b7df9f95ac883d89b184048a13613a7808a0b3/comments",
+    "author": {
+      "login": "paulfalgout",
+      "id": 2028470,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2028470?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulfalgout",
+      "html_url": "https://github.com/paulfalgout",
+      "followers_url": "https://api.github.com/users/paulfalgout/followers",
+      "following_url": "https://api.github.com/users/paulfalgout/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulfalgout/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulfalgout/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulfalgout/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulfalgout/orgs",
+      "repos_url": "https://api.github.com/users/paulfalgout/repos",
+      "events_url": "https://api.github.com/users/paulfalgout/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulfalgout/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "paulfalgout",
+      "id": 2028470,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2028470?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulfalgout",
+      "html_url": "https://github.com/paulfalgout",
+      "followers_url": "https://api.github.com/users/paulfalgout/followers",
+      "following_url": "https://api.github.com/users/paulfalgout/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulfalgout/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulfalgout/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulfalgout/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulfalgout/orgs",
+      "repos_url": "https://api.github.com/users/paulfalgout/repos",
+      "events_url": "https://api.github.com/users/paulfalgout/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulfalgout/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05fde9e201f7e2137796663081105cd6dad12a98",
+        "url": "https://api.github.com/repos/jashkenas/backbone/commits/05fde9e201f7e2137796663081105cd6dad12a98",
+        "html_url": "https://github.com/jashkenas/backbone/commit/05fde9e201f7e2137796663081105cd6dad12a98"
+      }
+    ]
+  }
+]

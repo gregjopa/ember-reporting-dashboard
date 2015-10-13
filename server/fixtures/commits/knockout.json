@@ -1,0 +1,2132 @@
+[
+  {
+    "sha": "480a8205d95b32b911a2c95eccec0155d10ef3d6",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-10-12T21:16:11Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-10-12T21:16:11Z"
+      },
+      "message": "update version to 3.4.0rc",
+      "tree": {
+        "sha": "1c800966e2f73d5bcad835ebe317b1fb65087b1b",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/1c800966e2f73d5bcad835ebe317b1fb65087b1b"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/480a8205d95b32b911a2c95eccec0155d10ef3d6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/480a8205d95b32b911a2c95eccec0155d10ef3d6",
+    "html_url": "https://github.com/knockout/knockout/commit/480a8205d95b32b911a2c95eccec0155d10ef3d6",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/480a8205d95b32b911a2c95eccec0155d10ef3d6/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6b536e47f2cd67f1f1b13aed7b1793ee649ac195",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/6b536e47f2cd67f1f1b13aed7b1793ee649ac195",
+        "html_url": "https://github.com/knockout/knockout/commit/6b536e47f2cd67f1f1b13aed7b1793ee649ac195"
+      }
+    ]
+  },
+  {
+    "sha": "6b536e47f2cd67f1f1b13aed7b1793ee649ac195",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-10-03T00:17:17Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-10-03T00:17:17Z"
+      },
+      "message": "Merge pull request #1893 from knockout/1893-fix-hasfocus-ie\n\nSetting hasFocus to false in IE clears focus from all other elements",
+      "tree": {
+        "sha": "ec3df3ae53166ee18d7c731341248ba048772600",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/ec3df3ae53166ee18d7c731341248ba048772600"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/6b536e47f2cd67f1f1b13aed7b1793ee649ac195",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/6b536e47f2cd67f1f1b13aed7b1793ee649ac195",
+    "html_url": "https://github.com/knockout/knockout/commit/6b536e47f2cd67f1f1b13aed7b1793ee649ac195",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/6b536e47f2cd67f1f1b13aed7b1793ee649ac195/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2d8d5693926fef214b07d643996e457358b6fad",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/a2d8d5693926fef214b07d643996e457358b6fad",
+        "html_url": "https://github.com/knockout/knockout/commit/a2d8d5693926fef214b07d643996e457358b6fad"
+      },
+      {
+        "sha": "2a31496b45d4db2b2215d55ce03b4dd17cbcb10b",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/2a31496b45d4db2b2215d55ce03b4dd17cbcb10b",
+        "html_url": "https://github.com/knockout/knockout/commit/2a31496b45d4db2b2215d55ce03b4dd17cbcb10b"
+      }
+    ]
+  },
+  {
+    "sha": "2a31496b45d4db2b2215d55ce03b4dd17cbcb10b",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-30T23:01:21Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-30T23:01:21Z"
+      },
+      "message": "Fix hasFocus in IE (setting hasFocus to false in IE clears focus from all other elements)",
+      "tree": {
+        "sha": "95d5d9b49c34a3ccaa97f5becc58d37b5ff5f1e5",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/95d5d9b49c34a3ccaa97f5becc58d37b5ff5f1e5"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/2a31496b45d4db2b2215d55ce03b4dd17cbcb10b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/2a31496b45d4db2b2215d55ce03b4dd17cbcb10b",
+    "html_url": "https://github.com/knockout/knockout/commit/2a31496b45d4db2b2215d55ce03b4dd17cbcb10b",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/2a31496b45d4db2b2215d55ce03b4dd17cbcb10b/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8decc433942d7413b47768e0f45c304e8f15aa09",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/8decc433942d7413b47768e0f45c304e8f15aa09",
+        "html_url": "https://github.com/knockout/knockout/commit/8decc433942d7413b47768e0f45c304e8f15aa09"
+      }
+    ]
+  },
+  {
+    "sha": "a2d8d5693926fef214b07d643996e457358b6fad",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-28T09:25:30Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-28T09:25:30Z"
+      },
+      "message": "Merge pull request #1880 from knockout/1880-revert-to-jquery-parsing\n\nRemoving jQuery HTML parsing by default is breaking",
+      "tree": {
+        "sha": "fcc06aa416b8d7b9f39b7561be0d3c57cc9f8854",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/fcc06aa416b8d7b9f39b7561be0d3c57cc9f8854"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/a2d8d5693926fef214b07d643996e457358b6fad",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/a2d8d5693926fef214b07d643996e457358b6fad",
+    "html_url": "https://github.com/knockout/knockout/commit/a2d8d5693926fef214b07d643996e457358b6fad",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/a2d8d5693926fef214b07d643996e457358b6fad/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8decc433942d7413b47768e0f45c304e8f15aa09",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/8decc433942d7413b47768e0f45c304e8f15aa09",
+        "html_url": "https://github.com/knockout/knockout/commit/8decc433942d7413b47768e0f45c304e8f15aa09"
+      },
+      {
+        "sha": "b85e32701c8b08879e2105a60ec05ad9d4ba40ff",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/b85e32701c8b08879e2105a60ec05ad9d4ba40ff",
+        "html_url": "https://github.com/knockout/knockout/commit/b85e32701c8b08879e2105a60ec05ad9d4ba40ff"
+      }
+    ]
+  },
+  {
+    "sha": "b85e32701c8b08879e2105a60ec05ad9d4ba40ff",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-24T23:17:18Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-24T23:17:18Z"
+      },
+      "message": "Always use jQuery for HTML parsing if available, even though current versions fail with certain tags.",
+      "tree": {
+        "sha": "fcc06aa416b8d7b9f39b7561be0d3c57cc9f8854",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/fcc06aa416b8d7b9f39b7561be0d3c57cc9f8854"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/b85e32701c8b08879e2105a60ec05ad9d4ba40ff",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/b85e32701c8b08879e2105a60ec05ad9d4ba40ff",
+    "html_url": "https://github.com/knockout/knockout/commit/b85e32701c8b08879e2105a60ec05ad9d4ba40ff",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/b85e32701c8b08879e2105a60ec05ad9d4ba40ff/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8decc433942d7413b47768e0f45c304e8f15aa09",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/8decc433942d7413b47768e0f45c304e8f15aa09",
+        "html_url": "https://github.com/knockout/knockout/commit/8decc433942d7413b47768e0f45c304e8f15aa09"
+      }
+    ]
+  },
+  {
+    "sha": "8decc433942d7413b47768e0f45c304e8f15aa09",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-24T19:36:51Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-24T19:36:51Z"
+      },
+      "message": "Merge pull request #1622 from knockout/1622-reduce-computed-notification-stack-overhead\n\nlong chains without overflowing the stack fails on FF 10-23",
+      "tree": {
+        "sha": "0f010f07763ca0416976eb104185ef793ea7c203",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/0f010f07763ca0416976eb104185ef793ea7c203"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/8decc433942d7413b47768e0f45c304e8f15aa09",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/8decc433942d7413b47768e0f45c304e8f15aa09",
+    "html_url": "https://github.com/knockout/knockout/commit/8decc433942d7413b47768e0f45c304e8f15aa09",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/8decc433942d7413b47768e0f45c304e8f15aa09/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d35723b28c5bf7a9258d68f656a15c71eb6ef4c7",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/d35723b28c5bf7a9258d68f656a15c71eb6ef4c7",
+        "html_url": "https://github.com/knockout/knockout/commit/d35723b28c5bf7a9258d68f656a15c71eb6ef4c7"
+      },
+      {
+        "sha": "e7cef9bc143e45c4a7e088f417a089b5265c9e8a",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/e7cef9bc143e45c4a7e088f417a089b5265c9e8a",
+        "html_url": "https://github.com/knockout/knockout/commit/e7cef9bc143e45c4a7e088f417a089b5265c9e8a"
+      }
+    ]
+  },
+  {
+    "sha": "e7cef9bc143e45c4a7e088f417a089b5265c9e8a",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-24T03:29:46Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-24T03:29:46Z"
+      },
+      "message": "Switch back to using prototype method instead of closure for evaluatePossiblyAsync; reduce recursion test depth to match success result in FF.",
+      "tree": {
+        "sha": "94582e82111296564d1ab046f7cd16d89aa7de61",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/94582e82111296564d1ab046f7cd16d89aa7de61"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/e7cef9bc143e45c4a7e088f417a089b5265c9e8a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/e7cef9bc143e45c4a7e088f417a089b5265c9e8a",
+    "html_url": "https://github.com/knockout/knockout/commit/e7cef9bc143e45c4a7e088f417a089b5265c9e8a",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/e7cef9bc143e45c4a7e088f417a089b5265c9e8a/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f3be8d59ff7c19eeb8173a6d17c82a36b9ddfb42",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/f3be8d59ff7c19eeb8173a6d17c82a36b9ddfb42",
+        "html_url": "https://github.com/knockout/knockout/commit/f3be8d59ff7c19eeb8173a6d17c82a36b9ddfb42"
+      }
+    ]
+  },
+  {
+    "sha": "d35723b28c5bf7a9258d68f656a15c71eb6ef4c7",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-11T10:02:52Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-11T10:02:52Z"
+      },
+      "message": "Tweak isPureComputed implementation so it will work with subclasses too",
+      "tree": {
+        "sha": "94e28f56f278d4a098ef4700efce985a70a66968",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/94e28f56f278d4a098ef4700efce985a70a66968"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/d35723b28c5bf7a9258d68f656a15c71eb6ef4c7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/d35723b28c5bf7a9258d68f656a15c71eb6ef4c7",
+    "html_url": "https://github.com/knockout/knockout/commit/d35723b28c5bf7a9258d68f656a15c71eb6ef4c7",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/d35723b28c5bf7a9258d68f656a15c71eb6ef4c7/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "49d698dce598df5760af77933ed19be886a0cf62",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/49d698dce598df5760af77933ed19be886a0cf62",
+        "html_url": "https://github.com/knockout/knockout/commit/49d698dce598df5760af77933ed19be886a0cf62"
+      }
+    ]
+  },
+  {
+    "sha": "49d698dce598df5760af77933ed19be886a0cf62",
+    "commit": {
+      "author": {
+        "name": "zhaoyu0810",
+        "email": "zhaoyu0810@gmail.com",
+        "date": "2015-09-08T18:30:54Z"
+      },
+      "committer": {
+        "name": "Steven Zhao",
+        "email": "stzhao@microsoft.com",
+        "date": "2015-09-08T23:22:49Z"
+      },
+      "message": "Add ko.isPureComputed function and tests",
+      "tree": {
+        "sha": "595412d87752c769f231bd4dedef5d7d275ab2f5",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/595412d87752c769f231bd4dedef5d7d275ab2f5"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/49d698dce598df5760af77933ed19be886a0cf62",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/49d698dce598df5760af77933ed19be886a0cf62",
+    "html_url": "https://github.com/knockout/knockout/commit/49d698dce598df5760af77933ed19be886a0cf62",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/49d698dce598df5760af77933ed19be886a0cf62/comments",
+    "author": {
+      "login": "zhaoyu0810",
+      "id": 1256778,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1256778?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zhaoyu0810",
+      "html_url": "https://github.com/zhaoyu0810",
+      "followers_url": "https://api.github.com/users/zhaoyu0810/followers",
+      "following_url": "https://api.github.com/users/zhaoyu0810/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zhaoyu0810/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zhaoyu0810/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zhaoyu0810/subscriptions",
+      "organizations_url": "https://api.github.com/users/zhaoyu0810/orgs",
+      "repos_url": "https://api.github.com/users/zhaoyu0810/repos",
+      "events_url": "https://api.github.com/users/zhaoyu0810/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zhaoyu0810/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "StevenZhaoMS",
+      "id": 6844664,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6844664?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/StevenZhaoMS",
+      "html_url": "https://github.com/StevenZhaoMS",
+      "followers_url": "https://api.github.com/users/StevenZhaoMS/followers",
+      "following_url": "https://api.github.com/users/StevenZhaoMS/following{/other_user}",
+      "gists_url": "https://api.github.com/users/StevenZhaoMS/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/StevenZhaoMS/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/StevenZhaoMS/subscriptions",
+      "organizations_url": "https://api.github.com/users/StevenZhaoMS/orgs",
+      "repos_url": "https://api.github.com/users/StevenZhaoMS/repos",
+      "events_url": "https://api.github.com/users/StevenZhaoMS/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/StevenZhaoMS/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3962496fd8f61250a4bf4bf83d9664ccc727a337",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/3962496fd8f61250a4bf4bf83d9664ccc727a337",
+        "html_url": "https://github.com/knockout/knockout/commit/3962496fd8f61250a4bf4bf83d9664ccc727a337"
+      }
+    ]
+  },
+  {
+    "sha": "f3be8d59ff7c19eeb8173a6d17c82a36b9ddfb42",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-05T00:13:38Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-05T01:12:31Z"
+      },
+      "message": "Reduce stack overhead for recursive computed dependency notifications, especially for Firefox support (version 10-23).",
+      "tree": {
+        "sha": "4be6af11c629336d0970bf0934450827a2b7be35",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/4be6af11c629336d0970bf0934450827a2b7be35"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/f3be8d59ff7c19eeb8173a6d17c82a36b9ddfb42",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/f3be8d59ff7c19eeb8173a6d17c82a36b9ddfb42",
+    "html_url": "https://github.com/knockout/knockout/commit/f3be8d59ff7c19eeb8173a6d17c82a36b9ddfb42",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/f3be8d59ff7c19eeb8173a6d17c82a36b9ddfb42/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3962496fd8f61250a4bf4bf83d9664ccc727a337",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/3962496fd8f61250a4bf4bf83d9664ccc727a337",
+        "html_url": "https://github.com/knockout/knockout/commit/3962496fd8f61250a4bf4bf83d9664ccc727a337"
+      }
+    ]
+  },
+  {
+    "sha": "3962496fd8f61250a4bf4bf83d9664ccc727a337",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-04T21:31:29Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-09-04T21:31:29Z"
+      },
+      "message": "Merge pull request #1866 from knockout/fix-parseHTML-on-old-IE\n\nFix parse html on old IE",
+      "tree": {
+        "sha": "b04e5e89259f7b7ecb237f2ad247dbafdcdea18e",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/b04e5e89259f7b7ecb237f2ad247dbafdcdea18e"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/3962496fd8f61250a4bf4bf83d9664ccc727a337",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/3962496fd8f61250a4bf4bf83d9664ccc727a337",
+    "html_url": "https://github.com/knockout/knockout/commit/3962496fd8f61250a4bf4bf83d9664ccc727a337",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/3962496fd8f61250a4bf4bf83d9664ccc727a337/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "909050231d16f8167579d91c60761e37818fe9b5",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/909050231d16f8167579d91c60761e37818fe9b5",
+        "html_url": "https://github.com/knockout/knockout/commit/909050231d16f8167579d91c60761e37818fe9b5"
+      },
+      {
+        "sha": "c7ea1a60463a42296de720d35d7f4345f67e9655",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/c7ea1a60463a42296de720d35d7f4345f67e9655",
+        "html_url": "https://github.com/knockout/knockout/commit/c7ea1a60463a42296de720d35d7f4345f67e9655"
+      }
+    ]
+  },
+  {
+    "sha": "c7ea1a60463a42296de720d35d7f4345f67e9655",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-04T14:30:52Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-04T14:30:52Z"
+      },
+      "message": "Add missing check for allowJQueryHtmlParsing",
+      "tree": {
+        "sha": "b04e5e89259f7b7ecb237f2ad247dbafdcdea18e",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/b04e5e89259f7b7ecb237f2ad247dbafdcdea18e"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/c7ea1a60463a42296de720d35d7f4345f67e9655",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/c7ea1a60463a42296de720d35d7f4345f67e9655",
+    "html_url": "https://github.com/knockout/knockout/commit/c7ea1a60463a42296de720d35d7f4345f67e9655",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/c7ea1a60463a42296de720d35d7f4345f67e9655/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "683c764f446e40f35f3aec1e90d745be060b0fbf",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/683c764f446e40f35f3aec1e90d745be060b0fbf",
+        "html_url": "https://github.com/knockout/knockout/commit/683c764f446e40f35f3aec1e90d745be060b0fbf"
+      }
+    ]
+  },
+  {
+    "sha": "683c764f446e40f35f3aec1e90d745be060b0fbf",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-04T14:03:08Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-04T14:03:08Z"
+      },
+      "message": "Support all HTML parsing scenarios on all browser/library combinations that we can. This commit drops jQuery HTML parsing for all browsers except IE6-8.",
+      "tree": {
+        "sha": "decb1697338f1ecf86e2d492b12415cedfec8a40",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/decb1697338f1ecf86e2d492b12415cedfec8a40"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/683c764f446e40f35f3aec1e90d745be060b0fbf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/683c764f446e40f35f3aec1e90d745be060b0fbf",
+    "html_url": "https://github.com/knockout/knockout/commit/683c764f446e40f35f3aec1e90d745be060b0fbf",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/683c764f446e40f35f3aec1e90d745be060b0fbf/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c48237db66efb2fdc171e6d0873835e791b0bc5",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/4c48237db66efb2fdc171e6d0873835e791b0bc5",
+        "html_url": "https://github.com/knockout/knockout/commit/4c48237db66efb2fdc171e6d0873835e791b0bc5"
+      }
+    ]
+  },
+  {
+    "sha": "4c48237db66efb2fdc171e6d0873835e791b0bc5",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-03T14:15:58Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-03T14:15:58Z"
+      },
+      "message": "Fix parseHtmlFragment on old IE, as long as you're not using jQuery or innershiv (which are still broken)",
+      "tree": {
+        "sha": "07bc615588fb79f393ae9322f34b6b116a26343c",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/07bc615588fb79f393ae9322f34b6b116a26343c"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/4c48237db66efb2fdc171e6d0873835e791b0bc5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/4c48237db66efb2fdc171e6d0873835e791b0bc5",
+    "html_url": "https://github.com/knockout/knockout/commit/4c48237db66efb2fdc171e6d0873835e791b0bc5",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/4c48237db66efb2fdc171e6d0873835e791b0bc5/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bd38a2b3ebde01900da1cd4baac01e5acedf60e1",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/bd38a2b3ebde01900da1cd4baac01e5acedf60e1",
+        "html_url": "https://github.com/knockout/knockout/commit/bd38a2b3ebde01900da1cd4baac01e5acedf60e1"
+      }
+    ]
+  },
+  {
+    "sha": "bd38a2b3ebde01900da1cd4baac01e5acedf60e1",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-03T14:15:41Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-09-03T14:15:41Z"
+      },
+      "message": "Make parseHtmlFragment tests more truthful - they should be failing on old IE",
+      "tree": {
+        "sha": "12c929a5e40ec38c3d90de8e7637be83bff788fa",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/12c929a5e40ec38c3d90de8e7637be83bff788fa"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/bd38a2b3ebde01900da1cd4baac01e5acedf60e1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/bd38a2b3ebde01900da1cd4baac01e5acedf60e1",
+    "html_url": "https://github.com/knockout/knockout/commit/bd38a2b3ebde01900da1cd4baac01e5acedf60e1",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/bd38a2b3ebde01900da1cd4baac01e5acedf60e1/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "909050231d16f8167579d91c60761e37818fe9b5",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/909050231d16f8167579d91c60761e37818fe9b5",
+        "html_url": "https://github.com/knockout/knockout/commit/909050231d16f8167579d91c60761e37818fe9b5"
+      }
+    ]
+  },
+  {
+    "sha": "909050231d16f8167579d91c60761e37818fe9b5",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-31T21:53:02Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-31T21:53:02Z"
+      },
+      "message": "In IE, the blur method doesn't always cause the element to lose focus (for example, if the window is not in focus). Use another method to blur the element that does seem to be reliable in IE.",
+      "tree": {
+        "sha": "5961b11906bcdf8109b83330b14075d85eb625d9",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/5961b11906bcdf8109b83330b14075d85eb625d9"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/909050231d16f8167579d91c60761e37818fe9b5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/909050231d16f8167579d91c60761e37818fe9b5",
+    "html_url": "https://github.com/knockout/knockout/commit/909050231d16f8167579d91c60761e37818fe9b5",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/909050231d16f8167579d91c60761e37818fe9b5/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e3e4b138db13408bf31c87aef004916233c38d6c",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/e3e4b138db13408bf31c87aef004916233c38d6c",
+        "html_url": "https://github.com/knockout/knockout/commit/e3e4b138db13408bf31c87aef004916233c38d6c"
+      }
+    ]
+  },
+  {
+    "sha": "e3e4b138db13408bf31c87aef004916233c38d6c",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-31T21:44:08Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-31T21:44:08Z"
+      },
+      "message": "Fix textInput test in IE9 (see #1788)",
+      "tree": {
+        "sha": "bcbcc392c95f3fdd83ab0935889a1dde1ce4117f",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/bcbcc392c95f3fdd83ab0935889a1dde1ce4117f"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/e3e4b138db13408bf31c87aef004916233c38d6c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/e3e4b138db13408bf31c87aef004916233c38d6c",
+    "html_url": "https://github.com/knockout/knockout/commit/e3e4b138db13408bf31c87aef004916233c38d6c",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/e3e4b138db13408bf31c87aef004916233c38d6c/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "967389df47b57886facb913439c846a9e4f93886",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/967389df47b57886facb913439c846a9e4f93886",
+        "html_url": "https://github.com/knockout/knockout/commit/967389df47b57886facb913439c846a9e4f93886"
+      }
+    ]
+  },
+  {
+    "sha": "967389df47b57886facb913439c846a9e4f93886",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-30T20:49:51Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-30T20:49:51Z"
+      },
+      "message": "Update test to pass in old IE; use latest version of jQuery in tests; rename function added in previous commit.",
+      "tree": {
+        "sha": "035c0893e5c3790ce06da15d23036933ee27e864",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/035c0893e5c3790ce06da15d23036933ee27e864"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/967389df47b57886facb913439c846a9e4f93886",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/967389df47b57886facb913439c846a9e4f93886",
+    "html_url": "https://github.com/knockout/knockout/commit/967389df47b57886facb913439c846a9e4f93886",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/967389df47b57886facb913439c846a9e4f93886/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "200f196c54383f85fb975562d97a2a95a2af4808",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/200f196c54383f85fb975562d97a2a95a2af4808",
+        "html_url": "https://github.com/knockout/knockout/commit/200f196c54383f85fb975562d97a2a95a2af4808"
+      }
+    ]
+  },
+  {
+    "sha": "200f196c54383f85fb975562d97a2a95a2af4808",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-28T22:14:11Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-28T22:14:11Z"
+      },
+      "message": "Work around fact that latest 1.x jQuery doesn't correctly parse elements like with tr-component, tbody-component, etc. Also fix issue with parsed <option> being selected in IE 8.",
+      "tree": {
+        "sha": "a6c6667aeee4f2aa9d122ac9435372729b9ee584",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/a6c6667aeee4f2aa9d122ac9435372729b9ee584"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/200f196c54383f85fb975562d97a2a95a2af4808",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/200f196c54383f85fb975562d97a2a95a2af4808",
+    "html_url": "https://github.com/knockout/knockout/commit/200f196c54383f85fb975562d97a2a95a2af4808",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/200f196c54383f85fb975562d97a2a95a2af4808/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aae6bf00c5711201555b652318ac5d97e3a8af7c",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/aae6bf00c5711201555b652318ac5d97e3a8af7c",
+        "html_url": "https://github.com/knockout/knockout/commit/aae6bf00c5711201555b652318ac5d97e3a8af7c"
+      }
+    ]
+  },
+  {
+    "sha": "aae6bf00c5711201555b652318ac5d97e3a8af7c",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-28T11:06:03Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-28T11:06:03Z"
+      },
+      "message": "IE needs an element to be added to the document before it will call event handlers.",
+      "tree": {
+        "sha": "9e5c53cab49dd15eb326cc83908edb416a998917",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/9e5c53cab49dd15eb326cc83908edb416a998917"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/aae6bf00c5711201555b652318ac5d97e3a8af7c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/aae6bf00c5711201555b652318ac5d97e3a8af7c",
+    "html_url": "https://github.com/knockout/knockout/commit/aae6bf00c5711201555b652318ac5d97e3a8af7c",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/aae6bf00c5711201555b652318ac5d97e3a8af7c/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4bfa0b8d1344e1cc662506391b8fcca28859bfdf",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/4bfa0b8d1344e1cc662506391b8fcca28859bfdf",
+        "html_url": "https://github.com/knockout/knockout/commit/4bfa0b8d1344e1cc662506391b8fcca28859bfdf"
+      }
+    ]
+  },
+  {
+    "sha": "4bfa0b8d1344e1cc662506391b8fcca28859bfdf",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-27T21:55:42Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-27T21:55:42Z"
+      },
+      "message": "Merge pull request #1855 from massimoahmadi/patch-1\n\nFix for potential memory leak",
+      "tree": {
+        "sha": "ffb2ca2e494699a6d2dd6c2bd3d07298aaac6e61",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/ffb2ca2e494699a6d2dd6c2bd3d07298aaac6e61"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/4bfa0b8d1344e1cc662506391b8fcca28859bfdf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/4bfa0b8d1344e1cc662506391b8fcca28859bfdf",
+    "html_url": "https://github.com/knockout/knockout/commit/4bfa0b8d1344e1cc662506391b8fcca28859bfdf",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/4bfa0b8d1344e1cc662506391b8fcca28859bfdf/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0",
+        "html_url": "https://github.com/knockout/knockout/commit/fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0"
+      },
+      {
+        "sha": "b5c351c7e576543027cc6c9153c7f15621ba2df0",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/b5c351c7e576543027cc6c9153c7f15621ba2df0",
+        "html_url": "https://github.com/knockout/knockout/commit/b5c351c7e576543027cc6c9153c7f15621ba2df0"
+      }
+    ]
+  },
+  {
+    "sha": "b5c351c7e576543027cc6c9153c7f15621ba2df0",
+    "commit": {
+      "author": {
+        "name": "Massimo Ahmadi",
+        "email": "info@massimoahmadi.com",
+        "date": "2015-08-21T17:09:21Z"
+      },
+      "committer": {
+        "name": "Massimo Ahmadi",
+        "email": "info@massimoahmadi.com",
+        "date": "2015-08-21T17:09:21Z"
+      },
+      "message": "Fix for potential memory leak\n\nWe detected that when we remove a component binding from the page (via a knockout if binding) then for some reason our viewModel still lives in the heap. The retainer (in the memory profiler) seems to be the \"currentViewModel\" variable... I wonder if it is required once the viewModel has been disposed? Because setting it to null like this seems to fix the problem and completely remove the viewModel from the heap. Is there another way this gets cleaned up that we're missing?",
+      "tree": {
+        "sha": "ffb2ca2e494699a6d2dd6c2bd3d07298aaac6e61",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/ffb2ca2e494699a6d2dd6c2bd3d07298aaac6e61"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/b5c351c7e576543027cc6c9153c7f15621ba2df0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/b5c351c7e576543027cc6c9153c7f15621ba2df0",
+    "html_url": "https://github.com/knockout/knockout/commit/b5c351c7e576543027cc6c9153c7f15621ba2df0",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/b5c351c7e576543027cc6c9153c7f15621ba2df0/comments",
+    "author": {
+      "login": "massimoahmadi",
+      "id": 3898363,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3898363?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/massimoahmadi",
+      "html_url": "https://github.com/massimoahmadi",
+      "followers_url": "https://api.github.com/users/massimoahmadi/followers",
+      "following_url": "https://api.github.com/users/massimoahmadi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/massimoahmadi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/massimoahmadi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/massimoahmadi/subscriptions",
+      "organizations_url": "https://api.github.com/users/massimoahmadi/orgs",
+      "repos_url": "https://api.github.com/users/massimoahmadi/repos",
+      "events_url": "https://api.github.com/users/massimoahmadi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/massimoahmadi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "massimoahmadi",
+      "id": 3898363,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3898363?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/massimoahmadi",
+      "html_url": "https://github.com/massimoahmadi",
+      "followers_url": "https://api.github.com/users/massimoahmadi/followers",
+      "following_url": "https://api.github.com/users/massimoahmadi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/massimoahmadi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/massimoahmadi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/massimoahmadi/subscriptions",
+      "organizations_url": "https://api.github.com/users/massimoahmadi/orgs",
+      "repos_url": "https://api.github.com/users/massimoahmadi/repos",
+      "events_url": "https://api.github.com/users/massimoahmadi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/massimoahmadi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0",
+        "html_url": "https://github.com/knockout/knockout/commit/fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0"
+      }
+    ]
+  },
+  {
+    "sha": "fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steven@stevensanderson.com",
+        "date": "2015-08-13T12:55:52Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steven@stevensanderson.com",
+        "date": "2015-08-13T12:55:52Z"
+      },
+      "message": "Merge pull request #1841 from knockout/faster-computeds\n\nFaster computeds",
+      "tree": {
+        "sha": "672867d5efc602a256d4e8c035b9702e550f343a",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/672867d5efc602a256d4e8c035b9702e550f343a"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0",
+    "html_url": "https://github.com/knockout/knockout/commit/fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/fa7ae8e3862bdcd7617a8425f55ffbf746e0eec0/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eefb50126df5db46b2bf5bedf28421487cca1b95",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/eefb50126df5db46b2bf5bedf28421487cca1b95",
+        "html_url": "https://github.com/knockout/knockout/commit/eefb50126df5db46b2bf5bedf28421487cca1b95"
+      },
+      {
+        "sha": "d2ce361daeb2bddbe6c92e2f64279bdce6463222",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/d2ce361daeb2bddbe6c92e2f64279bdce6463222",
+        "html_url": "https://github.com/knockout/knockout/commit/d2ce361daeb2bddbe6c92e2f64279bdce6463222"
+      }
+    ]
+  },
+  {
+    "sha": "d2ce361daeb2bddbe6c92e2f64279bdce6463222",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-12T20:35:07Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-13T00:38:05Z"
+      },
+      "message": "A couple of style updates.",
+      "tree": {
+        "sha": "672867d5efc602a256d4e8c035b9702e550f343a",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/672867d5efc602a256d4e8c035b9702e550f343a"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/d2ce361daeb2bddbe6c92e2f64279bdce6463222",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/d2ce361daeb2bddbe6c92e2f64279bdce6463222",
+    "html_url": "https://github.com/knockout/knockout/commit/d2ce361daeb2bddbe6c92e2f64279bdce6463222",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/d2ce361daeb2bddbe6c92e2f64279bdce6463222/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "83c5a0d0a68953e4c9e7797204e5a205c85e163c",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/83c5a0d0a68953e4c9e7797204e5a205c85e163c",
+        "html_url": "https://github.com/knockout/knockout/commit/83c5a0d0a68953e4c9e7797204e5a205c85e163c"
+      }
+    ]
+  },
+  {
+    "sha": "83c5a0d0a68953e4c9e7797204e5a205c85e163c",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-08-12T15:55:59Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-08-12T15:55:59Z"
+      },
+      "message": "Give names to a couple of previously-anonymous functions",
+      "tree": {
+        "sha": "a181530a2db1ff801b60576866290a22bc7e27dc",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/a181530a2db1ff801b60576866290a22bc7e27dc"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/83c5a0d0a68953e4c9e7797204e5a205c85e163c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/83c5a0d0a68953e4c9e7797204e5a205c85e163c",
+    "html_url": "https://github.com/knockout/knockout/commit/83c5a0d0a68953e4c9e7797204e5a205c85e163c",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/83c5a0d0a68953e4c9e7797204e5a205c85e163c/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b5d5d6d794c6dd4a128a08fcd904a9761f42fd3e",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/b5d5d6d794c6dd4a128a08fcd904a9761f42fd3e",
+        "html_url": "https://github.com/knockout/knockout/commit/b5d5d6d794c6dd4a128a08fcd904a9761f42fd3e"
+      }
+    ]
+  },
+  {
+    "sha": "b5d5d6d794c6dd4a128a08fcd904a9761f42fd3e",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-08-12T15:24:22Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-08-12T15:25:54Z"
+      },
+      "message": "Reduce ko.computed evaluation overhead by about 40%",
+      "tree": {
+        "sha": "9c8fac31865cf0a9826b0502fe07f6b89b3be48b",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/9c8fac31865cf0a9826b0502fe07f6b89b3be48b"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/b5d5d6d794c6dd4a128a08fcd904a9761f42fd3e",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/b5d5d6d794c6dd4a128a08fcd904a9761f42fd3e",
+    "html_url": "https://github.com/knockout/knockout/commit/b5d5d6d794c6dd4a128a08fcd904a9761f42fd3e",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/b5d5d6d794c6dd4a128a08fcd904a9761f42fd3e/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aa08dcab35bfe68ae4e483a46172b648691a62be",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/aa08dcab35bfe68ae4e483a46172b648691a62be",
+        "html_url": "https://github.com/knockout/knockout/commit/aa08dcab35bfe68ae4e483a46172b648691a62be"
+      }
+    ]
+  },
+  {
+    "sha": "aa08dcab35bfe68ae4e483a46172b648691a62be",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-08-12T15:23:37Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-08-12T15:23:37Z"
+      },
+      "message": "Rename getSymbolOrString to createSymbolOrString",
+      "tree": {
+        "sha": "5f0c1616746b227b6545885f4957045958871aea",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/5f0c1616746b227b6545885f4957045958871aea"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/aa08dcab35bfe68ae4e483a46172b648691a62be",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/aa08dcab35bfe68ae4e483a46172b648691a62be",
+    "html_url": "https://github.com/knockout/knockout/commit/aa08dcab35bfe68ae4e483a46172b648691a62be",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/aa08dcab35bfe68ae4e483a46172b648691a62be/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8c1e65d35f6226e85e52f3154a392e00e87a0e4b",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/8c1e65d35f6226e85e52f3154a392e00e87a0e4b",
+        "html_url": "https://github.com/knockout/knockout/commit/8c1e65d35f6226e85e52f3154a392e00e87a0e4b"
+      }
+    ]
+  },
+  {
+    "sha": "8c1e65d35f6226e85e52f3154a392e00e87a0e4b",
+    "commit": {
+      "author": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-08-12T13:25:56Z"
+      },
+      "committer": {
+        "name": "Steven Sanderson",
+        "email": "steve@codeville.net",
+        "date": "2015-08-12T13:25:56Z"
+      },
+      "message": "Use Symbol to hide _state property on computeds where supported",
+      "tree": {
+        "sha": "c8406d03acf547fb9793140a51908b69e3ebf0cb",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/c8406d03acf547fb9793140a51908b69e3ebf0cb"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/8c1e65d35f6226e85e52f3154a392e00e87a0e4b",
+      "comment_count": 2
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/8c1e65d35f6226e85e52f3154a392e00e87a0e4b",
+    "html_url": "https://github.com/knockout/knockout/commit/8c1e65d35f6226e85e52f3154a392e00e87a0e4b",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/8c1e65d35f6226e85e52f3154a392e00e87a0e4b/comments",
+    "author": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "SteveSanderson",
+      "id": 161375,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161375?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SteveSanderson",
+      "html_url": "https://github.com/SteveSanderson",
+      "followers_url": "https://api.github.com/users/SteveSanderson/followers",
+      "following_url": "https://api.github.com/users/SteveSanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SteveSanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SteveSanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SteveSanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/SteveSanderson/orgs",
+      "repos_url": "https://api.github.com/users/SteveSanderson/repos",
+      "events_url": "https://api.github.com/users/SteveSanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SteveSanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "40559c3695f7ec21e44d626c5a939867e1c54303",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/40559c3695f7ec21e44d626c5a939867e1c54303",
+        "html_url": "https://github.com/knockout/knockout/commit/40559c3695f7ec21e44d626c5a939867e1c54303"
+      }
+    ]
+  },
+  {
+    "sha": "40559c3695f7ec21e44d626c5a939867e1c54303",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-12T03:00:28Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-12T03:00:28Z"
+      },
+      "message": "Refactor ko.computed dispose code to reduce the number of anonymous functions (from three to one).",
+      "tree": {
+        "sha": "43faf571b1580b8b1eccadeca3165cbb78032894",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/43faf571b1580b8b1eccadeca3165cbb78032894"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/40559c3695f7ec21e44d626c5a939867e1c54303",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/40559c3695f7ec21e44d626c5a939867e1c54303",
+    "html_url": "https://github.com/knockout/knockout/commit/40559c3695f7ec21e44d626c5a939867e1c54303",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/40559c3695f7ec21e44d626c5a939867e1c54303/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba84968577b42f355cb911c52b41af225745341e",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/ba84968577b42f355cb911c52b41af225745341e",
+        "html_url": "https://github.com/knockout/knockout/commit/ba84968577b42f355cb911c52b41af225745341e"
+      }
+    ]
+  },
+  {
+    "sha": "ba84968577b42f355cb911c52b41af225745341e",
+    "commit": {
+      "author": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-12T02:57:44Z"
+      },
+      "committer": {
+        "name": "Michael Best",
+        "email": "mbest@dasya.com",
+        "date": "2015-08-12T02:57:44Z"
+      },
+      "message": "Clean up ko.computed code\n\n* Remove leading underscore from \"state\" properties, but use it for the \"state\" property itself.\n* Use \"computed\" instead of \"dependentObservable\" within the ko.computed code.\n* Slightly simplify inheriting from ko.subscribable.\n* Rename \"needsEvaluation\" to \"isStale\".\n* Remove items from \"state\" object that aren't used by prototype methods (writeFunction and options).\n* Use \"notifySubscribers\" within ko.computed instead of \"notify\" wrapper.\n* Make sure \"read\" and \"write\" functions aren't called with \"this = state\".",
+      "tree": {
+        "sha": "360ac938186c383545bd0b747ac6e4e3a81dcf8b",
+        "url": "https://api.github.com/repos/knockout/knockout/git/trees/360ac938186c383545bd0b747ac6e4e3a81dcf8b"
+      },
+      "url": "https://api.github.com/repos/knockout/knockout/git/commits/ba84968577b42f355cb911c52b41af225745341e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/knockout/knockout/commits/ba84968577b42f355cb911c52b41af225745341e",
+    "html_url": "https://github.com/knockout/knockout/commit/ba84968577b42f355cb911c52b41af225745341e",
+    "comments_url": "https://api.github.com/repos/knockout/knockout/commits/ba84968577b42f355cb911c52b41af225745341e/comments",
+    "author": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mbest",
+      "id": 1230364,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230364?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mbest",
+      "html_url": "https://github.com/mbest",
+      "followers_url": "https://api.github.com/users/mbest/followers",
+      "following_url": "https://api.github.com/users/mbest/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbest/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbest/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbest/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbest/orgs",
+      "repos_url": "https://api.github.com/users/mbest/repos",
+      "events_url": "https://api.github.com/users/mbest/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbest/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "74229a38f4eee91843cae008ac4f398f1678e12f",
+        "url": "https://api.github.com/repos/knockout/knockout/commits/74229a38f4eee91843cae008ac4f398f1678e12f",
+        "html_url": "https://github.com/knockout/knockout/commit/74229a38f4eee91843cae008ac4f398f1678e12f"
+      }
+    ]
+  }
+]

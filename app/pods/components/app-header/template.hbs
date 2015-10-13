@@ -6,16 +6,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">Ember Reporting Dashboard</a>
+      {{#link-to "report-comparison" class="navbar-brand"}}Ember Reporting Dashboard{{/link-to}}
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active">
-          <a href="#">Repo Comparison Report</a>
-        </li>
-        <li>
-          <a href="#">Repo Details Report</a>
-        </li>
+        {{#link-to "report-comparison" tagName="li"}}
+          {{link-to "Repo Comparison Report" "report-comparison"}}
+        {{/link-to}}
+        {{#link-to "report-details" tagName="li"}}
+          {{link-to "Repo Details Report" "report-details"}}
+        {{/link-to}}
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><p class="navbar-text">Welcome Ember Fan!</p></li>

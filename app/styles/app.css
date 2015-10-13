@@ -19,3 +19,18 @@ footer {
 .navbar-text {
   padding-left: 15px;
 }
+
+
+.select2-container {
+  border: 0;
+  height: auto;
+  padding: 0;
+}
+
+.select2-container .select2-choices .select2-search-choice {
+  margin-top: 5px;
+}
+
+.select2-container .select2-search-choice-close {
+  top: 3px;
+}

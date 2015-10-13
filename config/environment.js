@@ -17,6 +17,15 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+
+      // relative path for mock api server
+      apiHost: '/api'
+    },
+    contentSecurityPolicy: {
+      'connect-src': "'self' https://api.github.com",
+      'script-src': "'self' 'unsafe-inline'",
+      'style-src': "'self' 'unsafe-inline'",
+      'img-src': "'self' https://avatars.githubusercontent.com"
     }
   };
 
@@ -41,7 +50,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.APP.apiHost = 'https://api.github.com';
+    ENV.locationType = 'hash';
   }
 
   return ENV;

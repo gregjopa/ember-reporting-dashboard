@@ -1,0 +1,24 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Report Parameters</h3>
+  </div>
+  <div class="panel-body">
+
+    <form>
+      <div class="form-group">
+        <label>GitHub Repos</label>
+        {{select-2
+          content=repos
+          value=selectedRepo
+          optionLabelPath="name"
+          placeholder="Select repo"
+        }}
+      </div>
+      <hr>
+      <button class="btn btn-default" {{action "submit" selectedRepo}}>Submit</button>
+    </form>
+
+  </div>
+</div>
+
+{{outlet}}

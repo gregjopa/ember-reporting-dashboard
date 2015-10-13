@@ -34,3 +34,10 @@ footer {
 .select2-container .select2-search-choice-close {
   top: 3px;
 }
+
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 400px;
+}

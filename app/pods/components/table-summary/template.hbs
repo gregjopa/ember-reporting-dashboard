@@ -1,0 +1,34 @@
+<div class="table-responsive">
+  <table class="table table-striped cp-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Commit Message</th>
+        <th>Author Name</th>
+        <th>Author Email</th>
+        <th>Author Avatar</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each content as |row|}}
+        <tr>
+          <td>
+            {{moment-format row.commit.author.date "MMMM Do YYYY, h:mma"}}
+          </td>
+          <td>
+            {{table-cell-truncate-text content=row.commit.message}}
+          </td>
+          <td>
+            {{row.commit.author.name}}
+          </td>
+          <td>
+            {{row.commit.author.email}}
+          </td>
+          <td>
+            <img src="{{row.author.avatar_url}}" width="150" height="150">
+          </td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

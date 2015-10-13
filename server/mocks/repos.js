@@ -28,11 +28,6 @@ module.exports = function (app) {
       'knockout/knockout': commitActivityKnockout
     };
 
-    // var json = {
-    //   name: name,
-    //   data: fixtures[name]
-    // };
-
     var json = fixtures[name];
 
     setTimeout(function () {

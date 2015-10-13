@@ -1,0 +1,21 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 94px;
+}
+
+footer {
+  background-color: #333;
+  color: #ccc;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-text {
+  padding-left: 15px;
+}

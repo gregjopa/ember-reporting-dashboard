@@ -1,7 +1,7 @@
 {
   "name": "ember-reporting-dashboard",
   "version": "1.0.0",
-  "description": "Small description for ember-reporting-dashboard goes here",
+  "description": "Example reporting app built with Ember that uses GitHub's public API",
   "private": true,
   "directories": {
     "doc": "doc",

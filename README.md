@@ -1,7 +1,6 @@
 # Ember-reporting-dashboard
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Example reporting app built with Ember that uses GitHub's public API.
 
 ## Prerequisites
 
@@ -51,3 +50,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## GitHub APIs that power this app
+
+* [GET /repos/:owner/:repo/stats/commit_activity](https://developer.github.com/v3/repos/statistics/#commit-activity)
+* [GET /repos/:owner/:repo/commits](https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository)

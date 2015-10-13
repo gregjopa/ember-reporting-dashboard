@@ -10,7 +10,6 @@ export default Ember.Route.extend({
   },
 
   model(params) {
-    let repoId = 'emberjs/ember.js';
     return Ember.$.getJSON(config.APP.apiHost + '/repos/' + params.repo + '/commits');
   }
 

@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ember-reporting-dashboard',
+    podModulePrefix: 'ember-reporting-dashboard/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

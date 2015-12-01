@@ -7,13 +7,16 @@
     <form>
       <div class="form-group">
         <label>GitHub Repos</label>
-        {{select-2
-          content=repos
-          value=selectedRepos
-          optionLabelPath="name"
+        {{#power-select
+          options=repos
+          selected=selectedRepos
+          onchange=(action (mut selectedRepos))
           placeholder="Select repos"
+          searchField="name"
           multiple=true
-        }}
+          as |repo|}}
+          {{repo.name}}
+        {{/power-select}}
       </div>
       <hr>
       <button class="btn btn-default" {{action "submit" selectedRepos}}>Submit</button>

@@ -20,7 +20,6 @@ footer {
   padding-left: 15px;
 }
 
-
 .select2-container {
   border: 0;
   height: auto;
@@ -33,11 +32,4 @@ footer {
 
 .select2-container .select2-search-choice-close {
   top: 3px;
-}
-
-.truncate-text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 400px;
 }

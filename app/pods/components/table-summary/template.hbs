@@ -1,12 +1,12 @@
 <div class="table-responsive">
-  <table class="table table-striped cp-table">
+  <table class="table table-striped">
     <thead>
       <tr>
-        <th>Date</th>
-        <th>Commit Message</th>
-        <th>Author Name</th>
-        <th>Author Email</th>
-        <th>Author Avatar</th>
+        <th style="width: 15%">Date</th>
+        <th style="width: 40%">Commit Message</th>
+        <th style="width: 15%">Author Name</th>
+        <th style="width: 15%">Author Email</th>
+        <th style="width: 15%">Author Avatar</th>
       </tr>
     </thead>
     <tbody>
@@ -16,7 +16,7 @@
             {{moment-format row.commit.author.date "MMMM Do YYYY, h:mma"}}
           </td>
           <td>
-            {{table-cell-truncate-text content=row.commit.message}}
+            {{table-cell-toggle-text content=row.commit.message}}
           </td>
           <td>
             {{row.commit.author.name}}

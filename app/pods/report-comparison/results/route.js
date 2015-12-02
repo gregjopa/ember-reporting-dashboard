@@ -3,18 +3,29 @@ import config from '../../../config/environment';
 
 export default Ember.Route.extend({
 
+  queryParams: {
+    ids: {
+      refreshModel: true
+    }
+  },
+
+  beforeModel(transition) {
+    // handle use case when query param value is set directly in the url
+    const parentController = this.controllerFor('report-comparison');
+    parentController.send('updateSelectedRepos', transition.queryParams.ids);
+  },
+
   model(params) {
 
-    let repoIds = decodeURIComponent(params.repos).split(',');
-    let getEndpoint = (repoId) => {
+    const getEndpoint = (repoId) => {
       return Ember.$.getJSON(config.APP.apiHost + '/repos/' + repoId + '/stats/commit_activity');
     };
 
-    return Ember.RSVP.Promise.all(repoIds.map(getEndpoint))
+    return Ember.RSVP.Promise.all(params.ids.map(getEndpoint))
       .then((results) => {
         return results.map((result, index) => {
           return {
-            name: repoIds[index],
+            name: params.ids[index],
             data: result
           };
         });

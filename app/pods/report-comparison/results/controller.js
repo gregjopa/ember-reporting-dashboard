@@ -3,7 +3,11 @@ import moment from 'moment';
 
 export default Ember.Controller.extend({
 
-  repoIds: [],
+  queryParams: [
+    'ids'
+  ],
+
+  ids: ['emberjs/ember.js', 'angular/angular'],
 
   series: Ember.computed('model', function () {
 
@@ -19,8 +23,8 @@ export default Ember.Controller.extend({
   }),
 
   categories: Ember.computed('model', function () {
-    let firstItem = this.get('model')[0];
-    let categories = firstItem.data.map(point => moment.unix(point.week).format('MM/DD/YYYY'));
+    const firstItem = this.get('model')[0];
+    const categories = firstItem.data.map(point => moment.unix(point.week).format('MM/DD/YYYY'));
     return categories;
   })
 

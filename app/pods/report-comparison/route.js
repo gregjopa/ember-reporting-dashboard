@@ -5,9 +5,8 @@ export default Ember.Route.extend({
   actions: {
 
     submit(repos) {
-      let repoIds = repos.map(item => item.id);
-      let formattedRepos = encodeURIComponent(repoIds);
-      this.transitionTo('report-comparison.results', formattedRepos);
+      const repoIds = repos.map(repo => repo.id);
+      this.transitionTo('report-comparison.results', { queryParams: { ids: repoIds } });
     }
 
   }

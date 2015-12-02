@@ -3,10 +3,9 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
 
   queryParams: [
-    'repo'
+    'id'
   ],
 
-  repo: 'emberjs/ember.js'
-
+  id: 'emberjs/ember.js'
 
 });

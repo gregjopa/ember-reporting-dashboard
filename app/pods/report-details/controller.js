@@ -9,7 +9,7 @@ export default Ember.Controller.extend({
     { name: 'knockout', id: 'knockout/knockout' }
   ]),
 
-  selectedRepo: { name: 'ember', id: 'emberjs/ember.js' },
+  selectedRepo: Ember.computed.oneWay('repos.firstObject'),
 
   actions: {
 

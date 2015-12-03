@@ -9,10 +9,9 @@ export default Ember.Controller.extend({
     { name: 'knockout', id: 'knockout/knockout' }
   ]),
 
-  selectedRepos: Ember.A([
-    { name: 'ember', id: 'emberjs/ember.js' },
-    { name: 'angular', id: 'angular/angular' }
-  ]),
+  selectedRepos: Ember.computed('repos', function () {
+    return this.get('repos').slice(0, 2);
+  }),
 
   actions: {
 

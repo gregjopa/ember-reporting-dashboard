@@ -4,6 +4,8 @@
   </div>
   <div class="panel-body">
 
+    {{app-alert cssClass="alert-danger" msg=alertMsg isVisible=alertIsVisible}}
+
     <form>
       <div class="form-group">
         <label>GitHub Repos</label>
@@ -19,7 +21,7 @@
         {{/power-select}}
       </div>
       <hr>
-      <button class="btn btn-default" {{action "submit" selectedRepos}}>Submit</button>
+      <button class="btn btn-default" {{action "validate" selectedRepos}}>Submit</button>
     </form>
 
   </div>

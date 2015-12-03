@@ -13,7 +13,22 @@ export default Ember.Controller.extend({
     return this.get('repos').slice(0, 2);
   }),
 
+  alertIsVisible: false,
+  alertMsg: 'Choose at least one repo.',
+
   actions: {
+
+    validate(selectedRepos) {
+
+      if (!selectedRepos.length) {
+        this.set('alertIsVisible', true);
+        return;
+      }
+
+      this.set('alertIsVisible', false);
+      this.send('submit', selectedRepos);
+
+    },
 
     updateSelectedRepos(ids) {
 

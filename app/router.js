@@ -8,11 +8,11 @@ var Router = Ember.Router.extend({
 Router.map(function () {
 
   this.route('report-comparison', { path: '/comparison' }, function () {
-    this.route('results');
+    this.route('results', { path: '/' });
   });
 
   this.route('report-details', { path: '/details' }, function () {
-    this.route('results');
+    this.route('results', { path: '/' });
   });
 
   this.route('error');

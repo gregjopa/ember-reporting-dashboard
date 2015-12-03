@@ -1,7 +1,8 @@
 import Ember from 'ember';
-import config from '../../../config/environment';
 
 export default Ember.Route.extend({
+
+  api: Ember.inject.service('github-api'),
 
   queryParams: {
     id: {
@@ -16,7 +17,7 @@ export default Ember.Route.extend({
   },
 
   model(params) {
-    return Ember.$.getJSON(config.APP.apiHost + '/repos/' + params.id + '/commits');
+    return this.get('api').getCommits(params.id);
   }
 
 });

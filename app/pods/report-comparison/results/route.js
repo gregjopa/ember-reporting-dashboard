@@ -1,7 +1,8 @@
 import Ember from 'ember';
-import config from '../../../config/environment';
 
 export default Ember.Route.extend({
+
+  api: Ember.inject.service('github-api'),
 
   queryParams: {
     ids: {
@@ -16,20 +17,7 @@ export default Ember.Route.extend({
   },
 
   model(params) {
-
-    const getEndpoint = (repoId) => {
-      return Ember.$.getJSON(config.APP.apiHost + '/repos/' + repoId + '/stats/commit_activity');
-    };
-
-    return Ember.RSVP.Promise.all(params.ids.map(getEndpoint))
-      .then((results) => {
-        return results.map((result, index) => {
-          return {
-            name: params.ids[index],
-            data: result
-          };
-        });
-      });
+    return this.get('api').getStats(params.ids);
   }
 
 });

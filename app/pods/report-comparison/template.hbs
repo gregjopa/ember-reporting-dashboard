@@ -1,30 +1,25 @@
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Report Parameters</h3>
-  </div>
-  <div class="panel-body">
+{{#app-panel title="Report Parameters"}}
 
-    {{app-alert cssClass="alert-danger" msg=alertMsg isVisible=alertIsVisible}}
+  {{app-alert cssClass="alert-danger" msg=alertMsg isVisible=alertIsVisible}}
 
-    <form>
-      <div class="form-group">
-        <label>GitHub Repos</label>
-        {{#power-select
-          options=repos
-          selected=selectedRepos
-          onchange=(action (mut selectedRepos))
-          placeholder="Select repos"
-          searchField="name"
-          multiple=true
-          as |repo|}}
-          {{repo.name}}
-        {{/power-select}}
-      </div>
-      <hr>
-      <button class="btn btn-default" {{action "validate" selectedRepos}}>Submit</button>
-    </form>
+  <form>
+    <div class="form-group">
+      <label>GitHub Repos</label>
+      {{#power-select
+        options=repos
+        selected=selectedRepos
+        onchange=(action (mut selectedRepos))
+        placeholder="Select repos"
+        searchField="name"
+        multiple=true
+        as |repo|}}
+        {{repo.name}}
+      {{/power-select}}
+    </div>
+    <hr>
+    <button class="btn btn-default" {{action "validate" selectedRepos}}>Submit</button>
+  </form>
 
-  </div>
-</div>
+{{/app-panel}}
 
 {{outlet}}

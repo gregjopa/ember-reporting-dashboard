@@ -10,14 +10,14 @@ export default Ember.Component.extend({
         type: 'area'
       },
       title: {
-        text: 'GitHub Commits'
+        text: this.get('title')
       },
       xAxis: {
         categories: this.get('categories')
       },
       yAxis: {
         title: {
-          text: '# of Commits'
+          text: this.get('yAxisTitle')
         }
       },
       plotOptions: {

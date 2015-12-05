@@ -6,6 +6,6 @@ export default Ember.Controller.extend({
     'id'
   ],
 
-  id: 'emberjs/ember.js'
+  id: ''
 
 });

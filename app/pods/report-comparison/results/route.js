@@ -3,6 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
 
   api: Ember.inject.service('github-api'),
+  defaultParams: Ember.inject.service('default-params'),
 
   queryParams: {
     ids: {
@@ -10,14 +11,9 @@ export default Ember.Route.extend({
     }
   },
 
-  beforeModel(transition) {
-    // handle use case when query param value is set directly in the url
-    const parentController = this.controllerFor('report-comparison');
-    parentController.send('updateSelectedRepos', transition.queryParams.ids);
-  },
-
   model(params) {
-    return this.get('api').getStats(params.ids);
+    const repoIds = params.ids.length ? params.ids : this.get('defaultParams.multipleRepoIds');
+    return this.get('api').getStats(repoIds);
   }
 
 });

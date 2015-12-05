@@ -6,7 +6,7 @@
     <div class="form-group">
       <label>GitHub Repos</label>
       {{#power-select
-        options=repos
+        options=model
         selected=selectedRepos
         onchange=(action (mut selectedRepos))
         placeholder="Select repos"

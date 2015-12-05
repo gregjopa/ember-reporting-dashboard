@@ -7,7 +7,7 @@ export default Ember.Controller.extend({
     'ids'
   ],
 
-  ids: ['emberjs/ember.js', 'angular/angular'],
+  ids: [],
 
   series: Ember.computed('model', function () {
 

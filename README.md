@@ -38,10 +38,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -54,3 +50,22 @@ Specify what it takes to deploy your app.
 
 * [GET /repos/:owner/:repo/stats/commit_activity](https://developer.github.com/v3/repos/statistics/#commit-activity)
 * [GET /repos/:owner/:repo/commits](https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository)
+
+## Project Structure
+
+    /
+    ├── app
+    │   ├── pods                     - ember pods structure
+    │   │   ├── application          - main starting point and global error handling
+    │   │   ├── components           - reusable components
+    │   │   ├── error                - error template
+    │   │   ├── index                - index route
+    │   │   ├── loading              - loading template
+    │   │   ├── report-comparison    - complex report w/ multi-select element
+    │   │   └── report-details       - basic report w/ single select element
+    │   │
+    ├── config                       - environment config (development, test, production)
+    ├── dist                         - static files for deployment (created by `ember build`)
+    ├── public                       - static assets (images, robots.txt)
+    ├── server                       - express.js mock api endpoints
+    └── tests                        - unit/integration tests

@@ -11,8 +11,8 @@ export default Ember.Route.extend({
     }
   },
 
-  model(params) {
-    const repoId = params.id || this.get('defaultParams.singleRepoId');
+  model({ id }) {
+    const repoId = id || this.get('defaultParams.singleRepoId');
     return this.get('api').getCommits(repoId);
   }
 

@@ -11,8 +11,8 @@ export default Ember.Route.extend({
     }
   },
 
-  model(params) {
-    const repoIds = params.ids.length ? params.ids : this.get('defaultParams.multipleRepoIds');
+  model({ ids }) {
+    const repoIds = ids.length ? ids : this.get('defaultParams.multipleRepoIds');
     return this.get('api').getStats(repoIds);
   }
 

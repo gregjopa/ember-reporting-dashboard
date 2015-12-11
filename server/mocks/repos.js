@@ -31,7 +31,7 @@ module.exports = function (app) {
     var json = fixtures[name];
 
     setTimeout(function () {
-      res.send(json);
+      res.status(200).send(json);
     }, delay);
 
   });
@@ -52,7 +52,7 @@ module.exports = function (app) {
     var json = fixtures[name];
 
     setTimeout(function () {
-      res.send(json);
+      res.status(200).send(json);
     }, delay);
 
   });

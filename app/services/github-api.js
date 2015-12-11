@@ -19,38 +19,38 @@ export default Ember.Service.extend({
       More details: https://developer.github.com/v3/repos/statistics/#statistics
     */
 
-    const deferred = Ember.$.Deferred();
-    const maxTrys = 3;
-    let counter = 1;
+    return new Ember.RSVP.Promise((resolve, reject) => {
 
-    const self = this;
+      const self = this;
+      const maxTrys = 3;
+      let counter = 1;
 
-    (function poll () {
-      setTimeout(() => {
+      (function poll () {
+        setTimeout(() => {
 
-        self.getStats(repoId)
-          .done((data, textStatus, jqXHR) => {
+          self.getStats(repoId)
+            .done((data, textStatus, jqXHR) => {
 
-            if (jqXHR.status === 200) {
-              return deferred.resolve(data);
-            }
-            else if (jqXHR.status === 202 && counter < maxTrys) {
-              counter++;
-              return poll();
-            }
-            else {
-              return deferred.reject('repository statistics are not available');
-            }
+              if (jqXHR.status === 200) {
+                return resolve(data);
+              }
+              else if (jqXHR.status === 202 && counter < maxTrys) {
+                counter++;
+                return poll();
+              }
+              else {
+                return reject('repository statistics are not available');
+              }
 
-          })
-          .fail(jqXHR => {
-            return deferred.reject(jqXHR);
-          });
+            })
+            .fail(jqXHR => {
+              return reject(jqXHR);
+            });
 
-      }, 1000);
-    })();
+        }, 1000);
+      })();
 
-    return deferred.promise();
+    });
 
   },
 

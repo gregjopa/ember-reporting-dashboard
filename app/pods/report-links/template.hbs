@@ -1,0 +1,37 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Repo Comparison Report</h3>
+  </div>
+  <div class="panel-body">
+
+    <div class="list-group">
+      <a href="#" class="list-group-item"
+        {{action 'linkToWithArray' '["emberjs/ember.js", "angular/angular"]'}}>
+        ember and angular
+      </a>
+      <a href="#" class="list-group-item"
+        {{action 'linkToWithArray' '["jashkenas/backbone", "knockout/knockout"]'}}>
+        backbone and knockout
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Repo Details Report</h3>
+  </div>
+  <div class="panel-body">
+
+    <div class="list-group">
+      {{#each model as |link|}}
+        {{#link-to "report-details" (query-params id=link.id) class="list-group-item"}}
+          {{link.name}}
+        {{/link-to}}
+      {{/each}}
+    </div>
+
+  </div>
+</div>

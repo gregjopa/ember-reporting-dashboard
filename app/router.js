@@ -15,6 +15,8 @@ Router.map(function () {
     this.route('results', { path: '/' });
   });
 
+  this.route('report-links', { path: '/links' });
+
   this.route('error');
 
 });

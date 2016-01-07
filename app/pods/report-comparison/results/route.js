@@ -11,8 +11,14 @@ export default Ember.Route.extend({
     }
   },
 
-  model({ ids }) {
-    const repoIds = ids.length ? ids : this.get('defaultParams.multipleRepoIds');
+  // set default value in parent form to support browser back button
+  beforeModel(transition) {
+    const parentController = this.controllerFor('report-comparison');
+    parentController.send('updateFromQueryParams', transition.queryParams);
+  },
+
+  model(params) {
+    const repoIds = params.ids.length ? params.ids : this.get('defaultParams.multipleRepoIds');
     return this.get('api').getAllStats(repoIds);
   }
 

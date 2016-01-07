@@ -13,18 +13,10 @@ export default Ember.Route.extend({
 
   },
 
-  // use afterModel() to set default value for selectedRepo
+  // set default value in form
   afterModel(model, transition) {
-
     const controller = this.controllerFor('report-details');
-
-    // handle use case when query params are set directly in the url
-    const id = transition.queryParams.id;
-    const repoId = id ? id : this.get('defaultParams.singleRepoId');
-
-    const repo = model.findBy('id', repoId);
-    controller.set('selectedRepo', repo);
-
+    controller.send('updateFromQueryParams', transition.queryParams, model);
   },
 
   actions: {

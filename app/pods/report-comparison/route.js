@@ -13,18 +13,10 @@ export default Ember.Route.extend({
 
   },
 
-  // use afterModel() to set default value for selectedRepos
+  // set default value in form
   afterModel(model, transition) {
-
     const controller = this.controllerFor('report-comparison');
-
-    // handle use case when query params are set directly in the url
-    const ids = transition.queryParams.ids;
-    const repoIds = ids ? JSON.parse(ids) : this.get('defaultParams.multipleRepoIds');
-
-    const repos = repoIds.map(repoId => model.findBy('id', repoId));
-    controller.set('selectedRepos', repos);
-
+    controller.send('updateFromQueryParams', transition.queryParams, model);
   },
 
   actions: {

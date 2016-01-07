@@ -11,8 +11,14 @@ export default Ember.Route.extend({
     }
   },
 
-  model({ id }) {
-    const repoId = id || this.get('defaultParams.singleRepoId');
+  // set default value in parent form to support browser back button
+  beforeModel(transition) {
+    const parentController = this.controllerFor('report-details');
+    parentController.send('updateFromQueryParams', transition.queryParams);
+  },
+
+  model(params) {
+    const repoId = params.id || this.get('defaultParams.singleRepoId');
     return this.get('api').getCommits(repoId);
   }
 

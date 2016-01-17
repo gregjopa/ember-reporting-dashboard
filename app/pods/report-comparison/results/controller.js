@@ -11,21 +11,29 @@ export default Ember.Controller.extend({
 
   series: Ember.computed('model', function () {
 
-    return this.get('model').map(item => {
+    const data = this.get('model').map(item => {
 
+      // calculate total
+      const { total } = item.data.reduce((prev, curr) => {
+        return { total: prev.total + curr.total };
+      });
+
+      // format
       return {
         name: item.name,
-        data: item.data.map(points => points.total)
+        total: total,
+        data: item.data.map(point => [this.formatDate(point.week), point.total])
       };
 
     });
 
+    // sort by total in decending order
+    return data.sort((obj1, obj2) => obj2.total - obj1.total);
+
   }),
 
-  categories: Ember.computed('model', function () {
-    const firstItem = this.get('model')[0];
-    const categories = firstItem.data.map(point => moment.unix(point.week).format('MM/DD/YYYY'));
-    return categories;
-  })
+  formatDate(seconds) {
+    return moment.unix(seconds).format('MM/DD/YYYY');
+  }
 
 });

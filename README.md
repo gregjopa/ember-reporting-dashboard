@@ -66,7 +66,7 @@ Make use of the many generators for code, try `ember help generate` for more det
     │   │
     │   ├── services                 - reusable modules that can be injected into other objects
     │   ├── styles                   - css styles
-    │   └── themes                   - highcharts theme
+    │   └── highcharts-configs       - highcharts config and theme
     │
     ├── config                       - environment config (development, test, production)
     ├── dist                         - static files for deployment (created by `ember build`)

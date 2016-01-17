@@ -7,47 +7,39 @@ export default Ember.Component.extend({
 
     return {
       chart: {
-        type: 'area'
+        type: 'column'
       },
       title: {
         text: this.get('title')
       },
       xAxis: {
-        type: 'category',
-        title: {
-          text: this.get('xAxisTitle')
-        }
+        type: 'category'
       },
       yAxis: {
         title: {
           text: this.get('yAxisTitle')
         }
       },
+      legend: {
+        enabled: false
+      },
       plotOptions: {
-        area: {
-          stacking: 'normal',
-          lineColor: '#999999',
-          lineWidth: 1,
-          marker: {
-            lineWidth: 1,
-            lineColor: '#999999'
-          }
-        },
-        series: {
-          marker: {
-            enabled: false
+        column: {
+          dataLabels: {
+            enabled: true
           }
         }
-      },
-      tooltip: {
-        shared: true
       }
     };
 
   }),
 
   chartData: Ember.computed('series.[]', function () {
-    return this.get('series');
+    return [{
+      name: 'commits',
+      colorByPoint: true,
+      data: this.get('series').map(points => [points.name, points.total])
+    }];
   }),
 
   theme: theme

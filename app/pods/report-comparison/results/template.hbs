@@ -1,5 +1,22 @@
+<h3 class="text-center">{{series.firstObject.name}} has the most commits</h3>
+<br>
+
+{{chart-column
+  series=series
+  title="GitHub Commits - Column Chart"
+  yAxisTitle="# of Commits"}}
+
+<hr>
+
+{{chart-pie
+  series=series
+  title="GitHub Commits - Pie Chart"
+  yAxisTitle="# of Commits"}}
+
+<hr>
+
 {{chart-stacked-area
   series=series
-  categories=categories
-  title="GitHub Commits"
+  title="GitHub Commits - Stacked Area Chart"
+  xAxisTitle="Week"
   yAxisTitle="# of Commits"}}

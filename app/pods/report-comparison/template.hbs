@@ -5,7 +5,7 @@
   <form>
     <div class="form-group">
       <label>GitHub Repos</label>
-      {{#power-select
+      {{#power-select-multiple
         options=model
         selected=selectedRepos
         onchange=(action (mut selectedRepos))
@@ -14,7 +14,7 @@
         multiple=true
         as |repo|}}
         {{repo.name}}
-      {{/power-select}}
+      {{/power-select-multiple}}
     </div>
     <hr>
     <button class="btn btn-default" {{action "validate" selectedRepos}}>Submit</button>

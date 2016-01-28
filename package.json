@@ -21,7 +21,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.1",
     "broccoli-funnel": "^1.0.1",
-    "ember-cli": "1.13.13",
+    "ember-cli": "1.13.15",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-content-security-policy": "0.4.0",
@@ -36,11 +36,12 @@
     "ember-cli-uglify": "^1.2.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.5",
-    "ember-highcharts": "0.3.0",
+    "ember-highcharts": "0.4.0",
     "ember-moment": "4.2.1",
-    "ember-power-select": "0.7.1",
+    "ember-power-select": "0.8.2",
     "express": "^4.13.3",
     "glob": "^6.0.2",
+    "highcharts": "4.2.1",
     "morgan": "^1.6.1"
   }
 }
